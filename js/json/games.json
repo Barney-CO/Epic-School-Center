@@ -1,0 +1,338 @@
+[
+  {
+    "title": "Slope",
+    "image": "https://nointernetgame.com/wp-content/uploads/2023/03/Slope-Game-Icon.jpg",
+    "link": "/main/games/slope"
+  },
+  {
+    "title": "Flappy Bird",
+    "image": "https://media.wired.co.uk/photos/606db3bf938ecee6e930f3be/1:1/w_1280,h_1280,c_limit/flappybird-1.jpg",
+    "link": "/main/games/flappy-bird"
+  },
+  {
+    "title": "1v1.lol",
+    "image": "https://play-lh.googleusercontent.com/QYGRIDJbyVO7L7jH8CwiKJ4NumTGgcTVqU3ITooLWxro-eeNns1RZ0uwGGFe-r8M4co",
+    "link": "/main/games/1v1.lol"
+  },
+  {
+    "title": "2048",
+    "image": "https://play-lh.googleusercontent.com/D_n8YQh7ivhhOMlLAvbIFdLMHl_xyFSU-P17R1qg3mqpQJfFlMWLV8-bCxs3yky5hQ",
+    "link": "/main/games/2048"
+  },
+  {
+    "title": "Subway Surfers",
+    "image": "https://static.wikia.nocookie.net/subwaysurf/images/2/23/ZurichIcon.png/",
+    "link": "/main/games/subway-surfers"
+  },
+  {
+    "title": "Drift Boss",
+    "image": "https://drift-hunters.co/upload/imgs/drift-boss.jpg",
+    "link": "/main/games/drift-boss"
+  },
+  {
+    "title": "Retro Bowl",
+    "image": "https://img.poki.com/cdn-cgi/image/quality=78,width=94,height=94,fit=cover,f=auto/ee9ca3764ef4289a48a1ebf457ef605441ed1f35a0f2eb12707a70d609e53686.png",
+    "link": "/main/games/retro-bowl"
+  },
+  {
+    "title": "Run 3",
+    "image": "https://img.poki.com/cdn-cgi/image/quality=78,width=314,height=314,fit=cover,f=auto/d3c19e9b-9b7b-4a54-9cb5-6188a5bd7d3b.png",
+    "link": "/main/games/run-3"
+  },
+  {
+    "title": "Basketball Stars",
+    "image": "https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/bc02c9cdfc5b424ddf343b01edf791ce.png",
+    "link": "/main/games/basketball-stars"
+  },
+  {
+    "title": "4 Colors",
+    "image": "https://toytheater.com/wp-content/uploads/four_colors.jpg",
+    "link": "/main/games/4-colors"
+  },
+  {
+    "title": "Dino Game",
+    "image": "https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/9afd3b92ab41ffca7f368a8fcbd6d39a75894efe0edbc14cf1f067cf625e6678.png",
+    "link": "/main/games/dino-game"
+  },
+  {
+    "title": "Little Alchemy",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdT4JVn97dC8XmdgOO8vIFAGHgYBpT21bMUND5AzapUl-igCCu34Gi1ruNbAB05c_a1aUhrSr6Hvk&usqp=CAU&ec=48600112",
+    "link": "/main/games/little-alchemy"
+  },
+  {
+    "title": "Papa's Pizzaria",
+    "image": "https://play-lh.googleusercontent.com/mEp5D-8pPQsugTpQxtzTTQHVScVviCst65uRNrT1BdrajfkeIDHHAPlgTu8KSePI5lc",
+    "link": "/main/games/papas-pizzaria"
+  },
+  {
+    "title": "Papa's Burgeria",
+    "image": "https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/2ee387e7e2c7b1c17642f3a87cf3b231.jpeg",
+    "link": "/main/games/papas-burgeria"
+  },
+  {
+    "title": "Papa's Taco Mia",
+    "image": "https://play-lh.googleusercontent.com/VgECaKfYWKg1nn_hfRXWqDd60FcXhJINKwPW-1ZrtRy_j_yFJ_sW16Wlt70xgB46xi4",
+    "link": "/main/games/papas-taco-mia"
+  },
+  {
+    "title": "Papa's Freezeria",
+    "image": "https://play-lh.googleusercontent.com/pHHCQat6QfO9dJMrRLRAlP-v9y98iI9lDx2oJ_Y8jho9AJQafQezJJYgWxzfuY9QRaw",
+    "link": "/main/games/papas-freezeria"
+  },
+  {
+    "title": "Papa's Pancakeria",
+    "image": "https://play-lh.googleusercontent.com/XlLsfjkSSgvSVFBn4ibANIW-Cj7Fg92NyJTHIp9vKTASgU0k4n7uXmqLNeBkx1UdKg",
+    "link": "/main/games/papas-pancakeria"
+  },
+  {
+    "title": "Papa's Hotdoggeria",
+    "image": "https://play-lh.googleusercontent.com/gQHhv-BDnxtaQdwtnDfGzdTAl5UfraC93FrE7jQRc-S7sMNbc22eVGd8llA6_RIj8C0K",
+    "link": "/main/games/papas-hotdoggeria"
+  },
+  {
+    "title": "Moto X3M",
+    "image": "https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/2c6d5a46cdbceada277c870ce1c389ee.jpg",
+    "link": "/main/games/moto-x3m"
+  },
+  {
+    "title": "Moto X3M Winter",
+    "image": "https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/c28eee5a5924e8a70afb2c1490d9b571.jpeg",
+    "link": "/main/games/moto-x3m-winter"
+  },
+  {
+    "title": "Moto X3M Pool Party",
+    "image": "https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/0235b530eec4f17ad60137f6b245a988.jpeg",
+    "link": "/main/games/moto-x3m-winter"
+  },
+  {
+    "title": "Moto X3M Spooky Land",
+    "image": "https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/3f8a297822df891a1c158576b6461014.png",
+    "link": "/main/games/moto-x3m-spooky-land"
+  },
+  {
+    "title": "Bitlife",
+    "image": "https://play-lh.googleusercontent.com/fUM-UyywXxjC8soxAZdIlxJrlRRXmql8wkE426SHzft4lJycSKVd2jCYQQX1BEG9Xw",
+    "link": "/main/games/bitlife"
+  },
+  {
+    "title": "Zombocalypse",
+    "image": "https://a.silvergames.com/j/b/zombocalypse.jpg",
+    "link": "/main/games/zombocalypse"
+  },
+  {
+    "title": "Minecraft",
+    "image": "https://play-lh.googleusercontent.com/VSwHQjcAttxsLE47RuS4PqpC4LT7lCoSjE7Hx5AW_yCxtDvcnsHHvm5CTuL5BPN-uRTP",
+    "link": "/main/games/minecraft"
+  },
+  {
+    "title": "Pac-Man",
+    "image": "https://play-lh.googleusercontent.com/V-lvUzA5kK0Xw3wdg8Ct3vfIMXUX5vXYcNLPmudaZ-eyQjedYz-luqIuLmJO6KodE0Y",
+    "link": "/main/games/pac-man"
+  },
+  {
+    "title": "Tall Man Run",
+    "image": "https://play-lh.googleusercontent.com/K5DM4DQOaw3vGeS_qrhqrrCGjUYlAsHz-MTbt5yeLHF1iZzQboNCx-0QFwzAKOorxOg",
+    "link": "/main/games/tall-man-run"
+  },
+  {
+    "title": "Bacon May Die",
+    "image": "https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/0b3b5b2de68b3a604693bf23b3994aa7.png",
+    "link": "/main/games/bacon-may-die"
+  },
+  {
+    "title": "Pixel Combats 2",
+    "image": "https://play-lh.googleusercontent.com/q956yl7ZUTBnbNzeTzO-FhONk1nP79ZIj4wI_rAgcWKgvGCOMWVXhuzdQXej0bJ3kQ",
+    "link": "/main/games/pixel-combats-2"
+  },
+  {
+    "title": "Tap Tap Shots",
+    "image": "https://play-lh.googleusercontent.com/5jUVQn1-43ZVVICMJNuWePkyxGZ1BjKMlNTQC6oOMlqpzLioRKo8bjav9leRTseq-wU",
+    "link": "/main/games/tap-tap-shots"
+  },
+  {
+    "title": "Cookie Clicker",
+    "image": "https://play-lh.googleusercontent.com/OssE3ON9WsLZedOF39UCgtIHcRYfV0OqQS9O78LfmRdxSyKdHX52G2OFa0LkG6D-k9w",
+    "link": "/main/games/cookie-clicker"
+  },
+  {
+    "title": "Idle Startup Tycoon",
+    "image": "https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/232e98097ba99f285994c15403519dac.png",
+    "link": "/main/games/idle-startup-tycoon"
+  },
+  {
+    "title": "Idle Mining Empire",
+    "image": "https://play-lh.googleusercontent.com/0nqW1stxsiYMMXaOuh6NoASq9i8pPlDqjkVTbiHv2SYukzECx2m6RZ3Z_UQv_JOZ7c4",
+    "link": "/main/games/idle-mining-empire"
+  },
+  {
+    "title": "Basketball Random",
+    "image": "https://play-lh.googleusercontent.com/gP8T5Z1O-ngxIloiwcBZzrzyLPYDp0R_1BDNKUDZboIRPVImeyWI8-7aExvB9gAGNKc",
+    "link": "/main/games/basketball-random"
+  },
+  {
+    "title": "Soccer Random",
+    "image": "https://play-lh.googleusercontent.com/G1PIlb6HWKSaDre0XpUcmKGps9T4iamsSlwrogB3EJzYv4bz0M2am4D17MtGzndaOOU",
+    "link": "/main/games/soccer-random"
+  },
+  {
+    "title": "Boxing Random",
+    "image": "https://play-lh.googleusercontent.com/ZuMoNX6xiIBRwdtSL-FN0xCdXyahk8SRaPZ5_4HzkdQEp2Tm_GAsha9OcsRoSDgSw8Y",
+    "link": "/main/games/boxing-random"
+  },
+  {
+    "title": "Sky Bridge",
+    "image": "https://slopegame.io/upload/imgs/sky-bridge.jpeg",
+    "link": "/main/games/sky-bridge"
+  },
+  {
+    "title": "Temple Run 2",
+    "image": "https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/f4b3ac7fe25cad9bc028b33f7a407f28.png",
+    "link": "/main/games/temple-run-2"
+  },
+  {
+    "title": "Bloxorz",
+    "image": "https://cdn2.steamgriddb.com/file/sgdb-cdn/icon/e3958a8c7218de842b0db063b56cc2dd.ico",
+    "link": "/main/games/bloxorz"
+  },
+  {
+    "title": "Doodle Jump",
+    "image": "https://play-lh.googleusercontent.com/aHnvdFTx0LVyfVHQLX51VcWBYkSVGvggr4FvIiP-iwBu4pKBiOQA1OnRi_nyFdCWqlU8",
+    "link": "/main/games/doodle-jump"
+  },
+  {
+    "title": "Paper.io 2",
+    "image": "https://play-lh.googleusercontent.com/KxcjUrs8S75iOPnKBR2b-s7eGtqbREwLgzttVxaM9Znl5ZxsDCl6qEZHny4rBkMeYA",
+    "link": "/main/games/paperio-2"
+  },
+  {
+    "title": "Time Shooter 2",
+    "image": "https://stickmerge.com/upload/imgs/timeshooter2-logo.jpeg",
+    "link": "/main/games/time-shooter-2"
+  },
+  {
+    "title": "Time Shooter 3",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/f5/d8/b3/f5d8b30f-1217-9e7b-6388-f823066ac79e/source/512x512bb.jpg",
+    "link": "/main/games/time-shooter-3"
+  },
+  {
+    "title": "Rooftop Snipers",
+    "image": "https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/c127771edb0e821e4109b7058ae3f094.jpeg",
+    "link": "/main/games/rooftop-snipers"
+  },
+  {
+    "title": "Pac-Xon",
+    "image": "https://img.gamedistribution.com/210802df55454737b3ef7f901c0de8d3-512x512.jpeg",
+    "link": "/main/games/pac-xon"
+  },
+  {
+    "title": "Super Mario Bros",
+    "image": "https://styles.redditmedia.com/t5_2wtvm/styles/communityIcon_601cmgvf5wr51.png",
+    "link": "/main/games/super-mario-bros"
+  },
+  {
+    "title": "Tetris",
+    "image": "https://play-lh.googleusercontent.com/za2Nu_qjMw5GzWfbzet4zeiZT1xvJlTRi4NJzGpJWX9grxFAAko5dGBwe7qeqK01THw",
+    "link": "/main/games/tetris"
+  },
+  {
+    "title": "Crossy Road",
+    "image": "https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/76fc1b000203faf71b77a75b10022142.png",
+    "link": "https://gametakeriscool.netlify.app/crossy/"
+  },
+  {
+    "title": "Google Feud",
+    "image": "https://cdn2.steamgriddb.com/file/sgdb-cdn/icon_thumb/4d5c3e59543d48a0ea6152d4bad9a10d.png",
+    "link": "/main/games/google-feud"
+  },
+  {
+    "title": "Idle Breakout",
+    "image": "https://play-lh.googleusercontent.com/e5jzYTn7Mjh9Ghn-DFpVedkOlRfSOyCS2AFgXdTrADIuuUbjx6vP6r_YOM2j5m7uLQ",
+    "link": "/main/games/idle-breakout"
+  },
+  {
+    "title": "Jetpack Joyride",
+    "image": "https://play-lh.googleusercontent.com/UnBJS2kf5Dw6HyZXF9TvcRBTwIkcaT59mXX26juBUCwlqHZ8bKhZRtuRZ2q4YrT7iaE",
+    "link": "https://gametakeriscool.netlify.app/jetpackjoyride/"
+  },
+  {
+    "title": "Drift Hunters",
+    "image": "https://drift-hunters.io/data/image/drift-hunters.png",
+    "link": "https://gametakeriscool.netlify.app/drift/"
+  },
+  {
+    "title": "Super Mario 64",
+    "image": "https://www.giantbomb.com/a/uploads/scale_medium/1/12541/3312461-sq_n64_supermario64.jpg",
+    "link": "https://gametakeriscool.netlify.app/sm64/"
+  },
+  {
+    "title": "Bloons TD 4",
+    "image": "https://assets-prd.ignimgs.com/2022/08/16/bloons-td4-button-1660612386362.jpg",
+    "link": "https://epic-school-center-fjxsk0seq-barneyataldi.vercel.app/games/btd4.html"
+  },
+  {
+    "title": "Jacksmith",
+    "image": "https://lh3.googleusercontent.com/PfrHcjWDNV_Fm-0A_HvKiDBqlExsGFgMELfwS6_L3OGMyXzHRm0-Nru6-8VHXe3FwN8",
+    "link": "https://epic-school-center-fjxsk0seq-barneyataldi.vercel.app/games/jacksmith.html"
+  },
+  {
+    "title": "Age of War",
+    "image": "https://play-lh.googleusercontent.com/cez7h97liCyy1oqCsBRy0tzIbdRXDFjGs6XuAyPCbl2PHglm_wl8KydulnJWjMlRgGPc",
+    "link": "https://epic-school-center-fjxsk0seq-barneyataldi.vercel.app/games/age-of-war.html"
+  },
+  {
+    "title": "Baldi's Basics",
+    "image": "https://play-lh.googleusercontent.com/EPV1TB4So1lB0DGrdCVExDpNU8ML67nd8OqBeoOIM-s6sDicxmDdPvCXD6n7LKevFl0",
+    "link": "https://epic-school-center-fjxsk0seq-barneyataldi.vercel.app/games/baldis-basics.html"
+  },
+  {
+    "title": "Monkey Mart",
+    "image": "https://img.poki.com/cdn-cgi/image/quality=78,width=314,height=314,fit=cover,f=auto/b3668d7deb043d0f43b5813b0365be8f.png",
+    "link": "/main/games/monkey-mart"
+  },
+  {
+    "title": "Chess.com",
+    "image": "https://play-lh.googleusercontent.com/a7R5nyeaX8lIEWdBOxjlvbyq9LcFwh3XMvNtBPEKR3LPGgdvgGrec4sJwn8tUaaSkw",
+    "link": "/main/games/chesscom"
+  },
+  {
+    "title": "Smashkarts",
+    "image": "https://play-lh.googleusercontent.com/__9TXua2QI6yR6BPpCzX7L0D0ccrGLrTiv8Wra0VKOvoxm_EjHJfq_87PQZ9C6kDCzIv=w240-h480",
+    "link": "/main/games/smashkarts"
+  },
+  {
+    "title": "Boba Simulator",
+    "image": "https://gamefaqs.gamespot.com/a/box/0/7/2/904072_side.jpg",
+    "link": "/main/games/boba-simulator"
+  },
+  {
+    "title": "Tanuki Sunset",
+    "image": "https://teen.media/assets/tanuki-sunset.jpeg",
+    "link": "/main/games/tanuki-sunset"
+  },
+  {
+    "title": "New Super Mario Bros",
+    "image": "https://mario.wiki.gallery/images/thumb/8/81/New_Super_Mario_Bros_box.png/1200px-New_Super_Mario_Bros_box.png",
+    "link": "/main/games/new-super-mario-bros"
+  },
+  
+  {
+    "title": "Justfall LOL",
+    "image": "https://tinyplay.io/data/image/game/just-fall-lol.png",
+    "link": "/main/games/justfall-lol"
+  },
+  {
+    "title": "Happy Wheels",
+    "image": "https://play-lh.googleusercontent.com/SV8RsV5udSeeONjatT5SwleP6lzV6PjtNPs2VvyohJXWSG9fFLNOfslDEHbpDN337wQ",
+    "link": "/main/games/happy-wheels"
+  },
+  {
+    "title": "Getaway Shootout",
+    "image": "https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/934bde36-a4a1-43d0-8b35-30f15feddbb4.png",
+    "link": "/main/games/getaway-shootout"
+  },
+  {
+    "title": "Slither.io",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/f5/d8/b3/f5d8b30f-1217-9e7b-6388-f823066ac79e/source/512x512bb.jpg",
+    "link": "/main/games/slither.io"
+  }
+]

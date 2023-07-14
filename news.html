@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script type="text/javascript" src="/js/tabcloaking.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>News</title>
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+    <script src="/js/tabcloaking.js"></script>
+    <meta content="img/logo.png" property="og:image" />
+    <meta content="#A020F0" data-react-helmet="true" name="theme-color" />
+    <link href='https://css.gg/css' rel='stylesheet'>
+     <!--  PWA LINKS -->
+     <link rel="manifest" href="/js/json/manifest.json" />
+     <meta name="theme-color" content="#6C0BA9"/>
+<script>
+     function setFavicon() {
+  var faviconUrl = document.getElementById("favicon-input").value;
+  document.getElementById("favicon").href = faviconUrl;
+  localStorage.setItem("faviconUrl", faviconUrl);
+}
+
+function reset() {
+  document.getElementById("title-input").value = "";
+  document.getElementById("page-title").innerText = "Default Title";
+  document.getElementById("favicon-input").value = "";
+  document.getElementById("favicon").href = "default-favicon.png";
+  localStorage.removeItem("title");
+  localStorage.removeItem("faviconUrl");
+}
+
+// Initialize the title and favicon on page load
+var title = localStorage.getItem("title");
+if (title) {
+  document.getElementById("page-title").innerText = title;
+}
+var faviconUrl = localStorage.getItem("faviconUrl");
+if (faviconUrl) {
+  document.getElementById("favicon").href = faviconUrl;
+}
+
+</script>
+
+</head>
+<body>
+    <div class="nav">
+        <a href="/index"><img class="logo" src="/img/logo.png"></a>
+        <a href="/index">Home</a>
+        <a href="/games">Games</a>
+        <a href="/apps">Apps</a>
+        <a class="active" href="/news">News</a>
+        <a href="/tos">TOS</a>
+        <a href="/settings">Settings</a>
+    </div>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+
+    <div name="news">
+        <h1>News</h1>
+        <h2>Added Happy Wheels</h2>
+        <h2>Added Getaway Shootout</h2>
+        <h2>Added Slither.io</h2>
+        <h2>Added Time Shooter 3</h2>
+        <h2>New UI</h2>
+    </div>
+
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div class="line">
+    &nbsp;
+    <script src="/js/favorites.js"></script>
+    <script src="/js/loading.js"></script>
+    <script src="/js/noiframe.js"></script>
+    <footer><h2>© Barney CO 2023</h2></footer>
+  <script>
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("/js/sw.js");
+  }
+  </script>
+</body>
+</html>

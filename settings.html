@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="title-favicon.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Settings</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+  <link href='https://css.gg/css' rel='stylesheet'>
+<style>
+.titletab {
+  padding: 12px;
+  border-radius: 33px;
+  border: 2px solid grey;
+  font-size: 16px;
+  width: 20%;
+  transition: .3s;
+}
+
+.titletab[type=text] {
+  width: 20%;
+  -webkit-transition: width 0.15s ease-in-out;
+  transition: width 0.15s ease-in-out;
+}
+
+/* When the input field gets focus,
+    change its width to 50% */
+.titletab[type=text]:focus {
+  width: 20%;
+}
+
+.favicon {
+  padding: 12px;
+  border-radius: 33px;
+  border: 2px solid grey;
+  font-size: 16px;
+  width: 20%;
+  transition: .3s;
+}
+
+.favicon[type=text] {
+  width: 20%;
+  -webkit-transition: width 0.15s ease-in-out;
+  transition: width 0.15s ease-in-out;
+}
+
+/* When the input field gets focus,
+    change its width to 50% */
+.favicon[type=text]:focus {
+  width: 20%;
+}
+
+.setbutton {
+  padding: 12px;
+  border-radius: 12px;
+  font-size: 16px;
+  background-color: blueviolet;
+  transition: .2s;
+  color: white;
+  border: none;
+}
+
+.setbutton:hover {
+  opacity: .3;
+  cursor: pointer;
+}
+
+.titletitle {
+  font-size: 16px;
+}
+
+.favicontitle {
+  font-size: 16px;
+}
+
+.tabcloaking {
+  text-align: left;
+}
+</style>
+</head>
+<body>
+      <div class="nav">
+        <a href="/"><img class="logo" src="/img/logo.png"></a>
+        <a href="/">Home</a>
+        <a href="/games">Games</a>
+        <a href="/apps.html">Apps</a>
+        <a href="/news">News</a>
+        <a href="/tos">TOS</a>
+        <a class="active" href="/settings.html">Settings</a>
+    </div>
+        <br>
+        <div class="elements">
+<!-- Start code here -->
+<h1 class="title">Settings</h1>
+<div class="line"></div>
+<div class="tabcloaking">
+<h1>Set Title and Favicon</h1>
+<label class="titletitle" for="title">Title:</label><br><br>
+<input placeholder="Page Title" class="titletab" type="text" id="title" name="title">
+<br><br>
+<label class="favicontitle" for="favicon_url">Favicon URL:</label><br><br>
+<input placeholder="Tab Icon" class="favicon" type="text" id="favicon_url" name="favicon_url">
+<br><br>
+<button class="setbutton" onclick="setTitleAndFavicon()">Set Title and Favicon</button>
+</div>
+<script>
+  function setTitleAndFavicon() {
+    // Get the user's input for the title and favicon URL
+    var title = document.getElementById("title").value;
+    var faviconUrl = document.getElementById("favicon_url").value;
+    
+    // Set the title and favicon
+    document.title = title;
+    document.getElementById("favicon").href = faviconUrl;
+  }
+</script>
+<br>
+
+<link href='https://css.gg/css' rel='stylesheet'>
+
+</body>
+</html>
