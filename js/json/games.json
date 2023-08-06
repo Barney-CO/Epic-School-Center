@@ -267,7 +267,12 @@
   {
     "title": "Bloons TD 4",
     "image": "https://assets-prd.ignimgs.com/2022/08/16/bloons-td4-button-1660612386362.jpg",
-    "link": "https://epic-school-center-fjxsk0seq-barneyataldi.vercel.app/games/btd4.html"
+    "link": "/main/games/btd4/"
+  },
+  {
+    "title": "Bloons TD 5",
+    "image": "https://images.nintendolife.com/c559aec81b622/bloons-td-5-cover.cover_large.jpg",
+    "link": "/main/games/btd5/"
   },
   {
     "title": "Jacksmith",
