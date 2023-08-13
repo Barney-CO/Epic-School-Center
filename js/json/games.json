@@ -50,6 +50,11 @@
     "link": "/main/games/4-colors"
   },
   {
+    "title": "4 Colors Multiplayer",
+    "image": "https://static.keygames.com/5/114735/100482/1024x1024/four-colors-multiplayer.webp",
+    "link": "https://showcase.codethislab.com/games/multiplayer/four_colors/"
+  },
+  {
     "title": "Dino Game",
     "image": "https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/9afd3b92ab41ffca7f368a8fcbd6d39a75894efe0edbc14cf1f067cf625e6678.png",
     "link": "/main/games/dino-game"
