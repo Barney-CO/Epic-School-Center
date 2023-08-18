@@ -267,7 +267,7 @@
   {
     "title": "Super Mario 64",
     "image": "https://www.giantbomb.com/a/uploads/scale_medium/1/12541/3312461-sq_n64_supermario64.jpg",
-    "link": "https://gametakeriscool.netlify.app/sm64/"
+    "link": "/main/games/sm64"
   },
   {
     "title": "Bloons TD 4",
@@ -300,19 +300,9 @@
     "link": "/main/games/monkey-mart"
   },
   {
-    "title": "Chess.com",
-    "image": "https://play-lh.googleusercontent.com/a7R5nyeaX8lIEWdBOxjlvbyq9LcFwh3XMvNtBPEKR3LPGgdvgGrec4sJwn8tUaaSkw",
-    "link": "/main/games/chesscom"
-  },
-  {
     "title": "Smashkarts",
     "image": "https://play-lh.googleusercontent.com/__9TXua2QI6yR6BPpCzX7L0D0ccrGLrTiv8Wra0VKOvoxm_EjHJfq_87PQZ9C6kDCzIv=w240-h480",
     "link": "/main/games/smashkarts"
-  },
-  {
-    "title": "Boba Simulator",
-    "image": "https://gamefaqs.gamespot.com/a/box/0/7/2/904072_side.jpg",
-    "link": "/main/games/boba-simulator"
   },
   {
     "title": "Tanuki Sunset",
@@ -344,5 +334,20 @@
     "title": "Slither.io",
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/f5/d8/b3/f5d8b30f-1217-9e7b-6388-f823066ac79e/source/512x512bb.jpg",
     "link": "/main/games/slither.io"
+  },
+  {
+    "title": "FNAF",
+    "image": "https://i.imgur.com/Hl6KSZT.png",
+    "link": "/main/games/fnaf"
+  },
+  {
+    "title": "Pokemon Red",
+    "image": "https://assets-prd.ignimgs.com/2022/04/13/pokemon-red-button-2022-1649888301240.jpg",
+    "link": "/main/games/pokemon-red"
+  },
+  {
+    "title": "Pokemon Ruby",
+    "image": "https://assets1.ignimgs.com/2019/05/17/pokemon-ruby---button-sm-1558057647902.jpg",
+    "link": "/main/games/pokemon-ruby"
   }
 ]

@@ -1,73 +1,43 @@
-<html lang="en-us"><head>
-    <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Super Mario 64</title>
-    <style>
-      body, html{
-        margin: 0;
-        padding: 0;
-        width: 100vw;
-        min-height: 100vh;
-        font-family: Arial, Helvetica, sans-serif;
-        color: white;
-        image-rendering: pixelated;
-        scrollbar-width: none;
-      }
-      ::-webkit-scrollbar {
-        display: none;
-      }
-      #container {
-        width: 100vw;
-        height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-      canvas {
-        width: 100vw;
-        height: 100vh;
-      }
-    </style>
-  </head>
-  <body>
-    <div id="container">
-      <canvas class="emscripten" id="canvas" style="cursor: default;" width="1920" height="1080"></canvas>
-    </div>
-    <script type="text/javascript">
-      var Module = {
-        preRun: [],
-        postRun: [],
-        print: (function() {
-          return function(text) {
-            if (arguments.length > 1) text = Array.prototype.slice.call(arguments).join(' ');
-            console.log(text);
-          };
-        })(),
-        printErr: function(text) {
-          if (arguments.length > 1)
-            text = Array.prototype.slice.call(arguments).join(' ');
-          console.error(text);
-        },
-        canvas: (function() {
-          var canvas = document.getElementById('canvas');
-          canvas.width = window.innerWidth; // Todo: how to do this from c++
-          canvas.height = window.innerHeight;
-          canvas.addEventListener("webglcontextlost", function(e) {
-            alert('WebGL context lost. You will need to reload the page.');
-            e.preventDefault();
-          }, false);
-          return canvas;
-        })(),
-        setStatus: function(text) {
-        }
-      };
-    </script>
-    <script async="" type="text/javascript" src="https://sevenworksdev.github.io/SM64-JS/game/sm64.js"></script>
-    <script>
-    </script>
-  
+<html><head><title>Minecraft</title><base target="_blank"><base target="_blank"></head><body><button class="c-button" onclick="myWindow1()">Click Here To Play</button>
+  <script>
+function myWindow1() {
+var myWindow1 = window.open('', 'myWindow1', 'scrollbars=1,height='+screen.availHeight+',width='+screen.availWidth);
+myWindow1.document.write('<!DOCTYPE html>\n\
+<title>Minecraft</title>\n\
+<p><iframe src="https://gametakeriscool.netlify.app/sm64/" frameborder="0" style="overflow:hidden;overflow-x:hidden;overflow-y:hidden;height:100%;width:100%;position:absolute;top:0px;left:0px;right:0px;bottom:0px" height="100%" width="100%">\n\
+<script>\n\
+alert("");\n\
+<\x2fscript>');
+}
+</script>
+<style>
+.c-button {
+min-width: 100%;
+font-family: calibri;
+appearance: none;
+border: 0;
+border-radius: 5px;
+background: #21273c;
+color: #fff;
+padding: 0px 46px;
+font-size: 30px;
+cursor: pointer;
+}
 
+.c-button:hover {
+background: #000000;
+}
 
+.c-button:focus {
+outline: none;
+box-shadow: 0 0 0 4px #cbd6ee;
+}
 
+.c-button {
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100%;
+}
 
-</body></html>
+</style></body></html>
