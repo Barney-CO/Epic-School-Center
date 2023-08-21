@@ -377,5 +377,10 @@
     "title": "Google Snake",
     "image": "/img/snake.png",
     "link": "/main/games/snake"
+  },
+  {
+    "title": "Legend of Zelda: Minish Cap",
+    "image": "https://assets1.ignimgs.com/2019/06/04/legend-of-zelda-the-minish-cap---button-1559683061499.jpg",
+    "link": "/main/games/zelda-minish-cap"
   }
 ]
