@@ -241,7 +241,7 @@
   },
   {
     "title": "Crossy Road",
-    "image": "https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/76fc1b000203faf71b77a75b10022142.png",
+    "image": "https://ih1.redbubble.net/image.879187030.5657/raf,360x360,075,t,fafafa:ca443f4786.jpg",
     "link": "https://gametakeriscool.netlify.app/crossy/"
   },
   {
@@ -342,13 +342,15 @@
   },
   {
     "title": "FNAF 2",
-    "image": "https://image.api.playstation.com/vulcan/img/cfn/11307kAwrrf-_zDPV58sZk9KngRv6IRmUz8fY4xYPgtzwXpk26WIvmi2aMKCVO_1rjgg-ycTJbOdeCRcQFQt0Lc3KmgIVMcb.png",
+    "image": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/five-nights-at-freddys-2/a/ae/Freddys-2-buttonjpg-d63eb0.jpg",
     "link": "/main/games/fnaf-2"
-  },  {
+  },
+  {
     "title": "FNAF 3",
     "image": "/img/FNAF3.webp",
     "link": "/main/games/fnaf-3"
-  },  {
+  },
+  {
     "title": "FNAF 4",
     "image": "/img/FNAF4.webp",
     "link": "/main/games/fnaf-4"
