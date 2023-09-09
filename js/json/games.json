@@ -21,8 +21,8 @@
   },
   {
     "title": "Subway Surfers",
-    "image": "https://static.wikia.nocookie.net/subwaysurf/images/2/23/ZurichIcon.png/",
-    "link": "/main/games/subway-surfers"
+    "image": "/img/BaliIcon.webp",
+    "link": "https://math-taker-c71nsgn6f-barneyataldi.vercel.app/017f9003-0089-43d4-8c75-9d5e69ea0bc7/content/00g.com/uploads/b/139890129-740932336170612268/files/index.html"
   },
   {
     "title": "Drift Boss",
@@ -36,12 +36,12 @@
   },
   {
     "title": "Run 3",
-    "image": "https://img.poki.com/cdn-cgi/image/quality=78,width=314,height=314,fit=cover,f=auto/d3c19e9b-9b7b-4a54-9cb5-6188a5bd7d3b.png",
+    "image": "/img/Run3.jpg",
     "link": "/main/games/run-3"
   },
   {
     "title": "Basketball Stars",
-    "image": "https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/bc02c9cdfc5b424ddf343b01edf791ce.png",
+    "image": "/img/Basketball-Stars.webp",
     "link": "/main/games/basketball-stars"
   },
   {
@@ -50,13 +50,8 @@
     "link": "/main/games/4-colors"
   },
   {
-    "title": "4 Colors Multiplayer",
-    "image": "https://static.keygames.com/5/114735/100482/1024x1024/four-colors-multiplayer.webp",
-    "link": "https://showcase.codethislab.com/games/multiplayer/four_colors/"
-  },
-  {
     "title": "Dino Game",
-    "image": "https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/9afd3b92ab41ffca7f368a8fcbd6d39a75894efe0edbc14cf1f067cf625e6678.png",
+    "image": "/img/DinoGame.jpg",
     "link": "/main/games/dino-game"
   },
   {
@@ -71,7 +66,7 @@
   },
   {
     "title": "Papa's Burgeria",
-    "image": "https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/2ee387e7e2c7b1c17642f3a87cf3b231.jpeg",
+    "image": "/img/PapaBurgeria.png",
     "link": "/main/games/papas-burgeria"
   },
   {
@@ -141,7 +136,7 @@
   },
   {
     "title": "Bacon May Die",
-    "image": "https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/0b3b5b2de68b3a604693bf23b3994aa7.png",
+    "image": "/img/BaconMayDie.webp",
     "link": "/main/games/bacon-may-die"
   },
   {
@@ -157,11 +152,11 @@
   {
     "title": "Cookie Clicker",
     "image": "https://play-lh.googleusercontent.com/OssE3ON9WsLZedOF39UCgtIHcRYfV0OqQS9O78LfmRdxSyKdHX52G2OFa0LkG6D-k9w",
-    "link": "/main/games/cookie-clicker"
+    "link": "/main/games/cookieclicker/"
   },
   {
     "title": "Idle Startup Tycoon",
-    "image": "https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/232e98097ba99f285994c15403519dac.png",
+    "image": "/img/IdleStartupTycoon.avif",
     "link": "/main/games/idle-startup-tycoon"
   },
   {
@@ -190,8 +185,8 @@
     "link": "/main/games/sky-bridge"
   },
   {
-    "title": "Temple Run 2",
-    "image": "https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/f4b3ac7fe25cad9bc028b33f7a407f28.png",
+    "title": " Temple Run 2",
+    "image": "/img/TempleRun2.png",
     "link": "/main/games/temple-run-2"
   },
   {
