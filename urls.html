@@ -17,33 +17,6 @@
      <!--  PWA LINKS -->
      <link rel="manifest" href="/js/json/manifest.json" />
      <meta name="theme-color" content="#6C0BA9"/>
-<script>
-     function setFavicon() {
-  var faviconUrl = document.getElementById("favicon-input").value;
-  document.getElementById("favicon").href = faviconUrl;
-  localStorage.setItem("faviconUrl", faviconUrl);
-}
-
-function reset() {
-  document.getElementById("title-input").value = "";
-  document.getElementById("page-title").innerText = "Default Title";
-  document.getElementById("favicon-input").value = "";
-  document.getElementById("favicon").href = "default-favicon.png";
-  localStorage.removeItem("title");
-  localStorage.removeItem("faviconUrl");
-}
-
-// Initialize the title and favicon on page load
-var title = localStorage.getItem("title");
-if (title) {
-  document.getElementById("page-title").innerText = title;
-}
-var faviconUrl = localStorage.getItem("faviconUrl");
-if (faviconUrl) {
-  document.getElementById("favicon").href = faviconUrl;
-}
-
-</script>
 
 </head>
 <body>
@@ -54,7 +27,8 @@ if (faviconUrl) {
         <a href="/apps">Apps</a>
         <a href="/news">News</a>
         <a href="https://forms.office.com/r/EZTfCidG3t" target="_blank">Form</a>
-        <a href="https://docs.google.com/presentation/d/1FiqZtAwqwKSQ88xHRIsztPZGJ1Bvk-S8ZGG8Y1LZEXA/edit#slide=id.p" target="_blank">Slides</a> 
+        <a href="https://docs.google.com/presentation/d/1FiqZtAwqwKSQ88xHRIsztPZGJ1Bvk-S8ZGG8Y1LZEXA/edit#slide=id.p" target="_blank">Slides</a>
+        <a href="/chat">Chat</a> 
     </div>
     <br>
     <br>
