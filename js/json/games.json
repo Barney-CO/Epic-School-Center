@@ -112,7 +112,7 @@
   {
     "title": "Bitlife",
     "image": "https://play-lh.googleusercontent.com/fUM-UyywXxjC8soxAZdIlxJrlRRXmql8wkE426SHzft4lJycSKVd2jCYQQX1BEG9Xw",
-    "link": "/main/games/bitlife"
+    "link": "https://math-taker-esc.vercel.app/ecb12c82-7c99-4a9a-b30c-7be773c73786/content/ubg365.github.io/games/bitlife-life-simulator/index.html"
   },
   {
     "title": "Zombocalypse",
@@ -381,8 +381,39 @@
     "link": "/main/games/zelda-minish-cap"
   },
   {
-    "title": "Ultimate Flash Sonic",
-    "image": "https://i1.sndcdn.com/artworks-7R4wzIMGeOIoUtKX-56HQQg-t500x500.jpg",
-    "link": "/main/games/sonic"
+    "title": "Vex 3",
+    "image": "/img/vex3.jpeg",
+    "link": "https://math-taker-esc.vercel.app/vexes/vex3/"
+  },
+  {
+    "title": "Vex 4",
+    "image": "/img/vex4.jpg",
+    "link": "https://math-taker-esc.vercel.app/vexes/vex4/"
+  },
+  {
+    "title": "Vex 5",
+    "image": "/img/vex5.png",
+    "link": "https://math-taker-esc.vercel.app/vexes/vex5/"
+  },
+  {
+    "title": "Vex 6",
+    "image": "/img/vex6.png",
+    "link": "https://math-taker-esc.vercel.app/vexes/vex6/"
+  },
+  {
+    "title": "Vex 7",
+    "image": "/img/vex7.jpg",
+    "link": "https://math-taker-esc.vercel.app/vexes/vex7/"
+  },
+  {
+    "title": "OvO",
+    "image": "/img/OvO.png",
+    "link": "https://math-taker-esc.vercel.app/ovo1.4.4/index.html"
+  },
+  {
+    "title": "Basket and Ball",
+    "image": "/img/BasketAndBall.png",
+    "link": "https://math-taker-esc.vercel.app/basketnball/index.html"
   }
+
 ]
