@@ -282,12 +282,12 @@
   {
     "title": "Age of War",
     "image": "https://play-lh.googleusercontent.com/cez7h97liCyy1oqCsBRy0tzIbdRXDFjGs6XuAyPCbl2PHglm_wl8KydulnJWjMlRgGPc",
-    "link": "https://epic-school-center-fjxsk0seq-barneyataldi.vercel.app/games/age-of-war.html"
+    "link": "/main/games/age-of-war.html"
   },
   {
     "title": "Baldi's Basics",
     "image": "https://play-lh.googleusercontent.com/EPV1TB4So1lB0DGrdCVExDpNU8ML67nd8OqBeoOIM-s6sDicxmDdPvCXD6n7LKevFl0",
-    "link": "https://epic-school-center-fjxsk0seq-barneyataldi.vercel.app/games/baldis-basics.html"
+    "link": "/main/games/baldi/"
   },
   {
     "title": "Monkey Mart",
