@@ -333,22 +333,22 @@
   {
     "title": "FNAF",
     "image": "/img/fnaf.png",
-    "link": "/main/games/fnaf"
+    "link": "/main/games/fnaf/fnaf-1"
   },
   {
     "title": "FNAF 2",
     "image": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/five-nights-at-freddys-2/a/ae/Freddys-2-buttonjpg-d63eb0.jpg",
-    "link": "/main/games/fnaf-2"
+    "link": "/main/games/fnaf/fnaf-2"
   },
   {
     "title": "FNAF 3",
     "image": "/img/FNAF3.webp",
-    "link": "/main/games/fnaf-3"
+    "link": "/main/games/fnaf/fnaf-3"
   },
   {
     "title": "FNAF 4",
     "image": "/img/FNAF4.webp",
-    "link": "/main/games/fnaf-4"
+    "link": "/main/games/fnaf/fnaf-4"
   },
   {
     "title": "Pokemon Red",
