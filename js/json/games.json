@@ -112,7 +112,7 @@
   {
     "title": "Bitlife",
     "image": "https://play-lh.googleusercontent.com/fUM-UyywXxjC8soxAZdIlxJrlRRXmql8wkE426SHzft4lJycSKVd2jCYQQX1BEG9Xw",
-    "link": "https://math-taker-esc.vercel.app/ecb12c82-7c99-4a9a-b30c-7be773c73786/content/ubg365.github.io/games/bitlife-life-simulator/index.html"
+    "link": "/main/games/bitlife-life-simulator/"
   },
   {
     "title": "Zombocalypse",
@@ -419,5 +419,15 @@
     "title": "Google Baseball",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKsx6VmJf7DRVxdmaM83mRbe5W2tiSbfvkDQ&usqp=CAU",
     "link": "https://www.google.com/logos/2019/july4th19/r6/july4th19.html?hl=en"
+  },
+  {
+    "title": "Electron Dash",
+    "image": "https://electron-dash.com/rs/banner-electron-dash.png",
+    "link": "https://www.hoodamath.com/games/electrondash.html"
+  },
+  {
+    "title": "Cluster Rush",
+    "image": "/img/Cluster Rush.avif",
+    "link": "/main/games/cluster-rush/"
   }
 ]

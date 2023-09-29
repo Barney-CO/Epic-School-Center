@@ -49,33 +49,6 @@
      <!--  PWA LINKS -->
      <link rel="manifest" href="/js/json/manifest.json" />
      <meta name="theme-color" content="#6C0BA9"/>
-<script>
-     function setFavicon() {
-  var faviconUrl = document.getElementById("favicon-input").value;
-  document.getElementById("favicon").href = faviconUrl;
-  localStorage.setItem("faviconUrl", faviconUrl);
-}
-
-function reset() {
-  document.getElementById("title-input").value = "";
-  document.getElementById("page-title").innerText = "Default Title";
-  document.getElementById("favicon-input").value = "";
-  document.getElementById("favicon").href = "default-favicon.png";
-  localStorage.removeItem("title");
-  localStorage.removeItem("faviconUrl");
-}
-
-// Initialize the title and favicon on page load
-var title = localStorage.getItem("title");
-if (title) {
-  document.getElementById("page-title").innerText = title;
-}
-var faviconUrl = localStorage.getItem("faviconUrl");
-if (faviconUrl) {
-  document.getElementById("favicon").href = faviconUrl;
-}
-
-</script>
 
      <!-- For dynamic phrases -->
      <script>
@@ -345,10 +318,6 @@ if (faviconUrl) {
         <a href="https://docs.google.com/presentation/d/1FiqZtAwqwKSQ88xHRIsztPZGJ1Bvk-S8ZGG8Y1LZEXA/edit#slide=id.p" target="_blank">Slides</a>
         <a href="/chat">Chat</a>
     </div>
-    <div id="panel">
-        <h1>Search for anything</h1>
-        <div class="dot-flashing"></div>
-    </div>
     <br>
     <!-- Start code here -->
     <img src="/img/logo.png" alt="Epic School Center LOGO" style="height: 80px; width: 200px; padding: 50px;">
@@ -360,19 +329,6 @@ if (faviconUrl) {
     <br><br>
 <a href="/urls"><button class="rainbow">URLS</button></a><br><br>
 <a href="https://discord.gg/va2jnvsq4X"><button class="rainbow">Discord</button></a><br><br>
-  <!-- closed, for now -->
-    <div style=display:none class="favoritesection">
-    <h1 class="title">Favorites</h1>
-    <h1>Currently unavailable</h1>
-   <center>
-    <div class="snippet" data-title="dot-flashing">
-      <div class="stage">
-        <div class="dot-flashing"></div>
-      </div>
-    </div>
-  </div>
-</div>
-  </center>
     <br>
     <br>
     <br>
