@@ -428,6 +428,11 @@
   {
     "title": "Cluster Rush",
     "image": "/img/Cluster Rush.avif",
-    "link": "/main/games/cluster-rush/"
+    "link": "/main/games/cluster-rush/" 
+  },
+  {
+    "title": "Rise Up",
+    "image": "https://play-lh.googleusercontent.com/_jkLVQ7DHlo6PJv1zvfOdWuavpnuVoCAb4OvPh81l1D9SVRDd1G-Vw3BAyFza-tr_jKF",
+    "link": "https://html5.gamedistribution.com/912e740c574741b1af92e99c12cce6d5/?gdpr-targeting=1&gd_sdk_referrer_url=https%3A%2F%2Fgameforge.com%2Fen-US%2Flittlegames%2Frise-up-balloon%2F" 
   }
 ]
