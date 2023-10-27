@@ -297,7 +297,7 @@
   {
     "title": "Smashkarts",
     "image": "https://play-lh.googleusercontent.com/__9TXua2QI6yR6BPpCzX7L0D0ccrGLrTiv8Wra0VKOvoxm_EjHJfq_87PQZ9C6kDCzIv=w240-h480",
-    "link": "/main/games/smashkarts"
+    "link": "https://mj89sp3sau2k7lj1eg3k40hkeppguj6j-a-sites-opensocial.googleusercontent.com/gadgets/ifr?url=http://www.gstatic.com/sites-gadgets/iframe/iframe.xml&container=enterprise&view=default&lang=ru&country=ALL&sanitize=0&v=c8088f253fe9d6d6&libs=core&mid=3921&parent=https://google.com/static_files#up_scroll=no&up_iframeURL=https://schoolkarts.com/"
   },
   {
     "title": "Tanuki Sunset",
@@ -434,5 +434,10 @@
     "title": "Rise Up",
     "image": "https://play-lh.googleusercontent.com/_jkLVQ7DHlo6PJv1zvfOdWuavpnuVoCAb4OvPh81l1D9SVRDd1G-Vw3BAyFza-tr_jKF",
     "link": "https://html5.gamedistribution.com/912e740c574741b1af92e99c12cce6d5/?gdpr-targeting=1&gd_sdk_referrer_url=https%3A%2F%2Fgameforge.com%2Fen-US%2Flittlegames%2Frise-up-balloon%2F" 
+  },
+  {
+    "title": "Rocket Soccer",
+    "image": "https://play-lh.googleusercontent.com/ZSLQpJsfi6GrsPoTpKh-IDkR_YcBdIG96pUi6KToYrHssFKkuV1lQQ5sLf08f5He3bE",
+    "link": "/main/games/RocketSoccer/index.html" 
   }
 ]
