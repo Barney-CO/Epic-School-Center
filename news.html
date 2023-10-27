@@ -12,37 +12,10 @@
     <meta content="img/logo.png" property="og:image" />
     <meta content="#A020F0" data-react-helmet="true" name="theme-color" />
     <link href='https://css.gg/css' rel='stylesheet'>
+    <script src="https://cdn.counter.dev/script.js" data-id="de3ccc18-ef81-42be-b59b-c11d769f9af5" data-utcoffset="-4"></script>
      <!--  PWA LINKS -->
      <link rel="manifest" href="/js/json/manifest.json" />
      <meta name="theme-color" content="#6C0BA9"/>
-<script>
-     function setFavicon() {
-  var faviconUrl = document.getElementById("favicon-input").value;
-  document.getElementById("favicon").href = faviconUrl;
-  localStorage.setItem("faviconUrl", faviconUrl);
-}
-
-function reset() {
-  document.getElementById("title-input").value = "";
-  document.getElementById("page-title").innerText = "Default Title";
-  document.getElementById("favicon-input").value = "";
-  document.getElementById("favicon").href = "default-favicon.png";
-  localStorage.removeItem("title");
-  localStorage.removeItem("faviconUrl");
-}
-
-// Initialize the title and favicon on page load
-var title = localStorage.getItem("title");
-if (title) {
-  document.getElementById("page-title").innerText = title;
-}
-var faviconUrl = localStorage.getItem("faviconUrl");
-if (faviconUrl) {
-  document.getElementById("favicon").href = faviconUrl;
-}
-
-</script>
-
 </head>
 <body>
     <div class="nav">
@@ -68,8 +41,8 @@ if (faviconUrl) {
     <br>
     <div class="line"></div>
     <footer>
-      <h2><br><a href="/proof">©</a> Barney CO 2023</h2>
-      <a href="/privacy-policy"><u><h2>Privacy Policy</h2></u></a>
+      </br><img src="/img/barney-co.png" alt="Barney CO LOGO"></br>
+      <h2><a href="/proof">©</a> Barney CO 2023</h2>
       <a href="/tos"><u><h2>TOS</h2></u></a>
     </footer>
 </body>

@@ -1,22 +1,22 @@
 [
   {
-    "title": "N-Gon",
-    "image": "https://raw.githubusercontent.com/OutRed/outred.github.io/main/img/n-gonimg.png",
-    "link": "/n-gon"
+    "title": "Retro Bowl",
+    "image": "https://pbs.twimg.com/profile_images/1217942835527409665/swRMqEkK_400x400.jpg",
+    "link": "/main/games/Retr0b0wl/"
   },
   {
-    "title": "Idle Breakout",
-    "image": "https://dummyimage.com/600x600/000/fff&text=Square+Image",
-    "link": "/idle-breakout"
-  },
-  {
-    "title": "Among Us",
-    "image": "https://dummyimage.com/600x600/000/fff&text=Square+Image",
-    "link": "/g/amongus"
+    "title": "Basketball Stars",
+    "image": "/img/Basketball-Stars.webp",
+    "link": "https://basketballstars67.pages.dev"
   },
   {
     "title": "1v1.lol",
-    "image": "https://dummyimage.com/600x600/000/fff&text=Square+Image",
-    "link": "/g/1v1lol"
+    "image": "https://play-lh.googleusercontent.com/QYGRIDJbyVO7L7jH8CwiKJ4NumTGgcTVqU3ITooLWxro-eeNns1RZ0uwGGFe-r8M4co",
+    "link": "/main/games/1v1/index.htm"
+  },
+  {
+    "title": "Idle Breakout",
+    "image": "https://play-lh.googleusercontent.com/e5jzYTn7Mjh9Ghn-DFpVedkOlRfSOyCS2AFgXdTrADIuuUbjx6vP6r_YOM2j5m7uLQ",
+    "link": "/main/games/idle-breakout"
   }
 ]

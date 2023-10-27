@@ -42,6 +42,7 @@ li a:hover {
 }
 
 img {
+  align-items: left;
    padding: px;
    border: 5px solid powderblue;
    border-radius: 15px;

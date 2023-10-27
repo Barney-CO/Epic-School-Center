@@ -211,9 +211,12 @@ body {
   /* Nav */
   .nav {
     display: flex;
-    justify-content: center;
+    .logo {
+      margin-right: 62.5vw;
+    }
+    justify-content: right;
     align-items: center;
-    text-align: center;
+    text-align: right;
     background-color: #121212;
     width: 100%;
     position: fixed;
@@ -233,14 +236,13 @@ body {
 }
 
 .nav a:hover {
-    color: grey;
+    color: #6E44FF;
 }
 
 .logo {
     border-radius: 12px;
     width: 100px;
-    height: auto;
-    vertical-align: middle;
+    justify-content: left;
 }
 
 .active {
