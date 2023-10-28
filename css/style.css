@@ -211,9 +211,6 @@ body {
   /* Nav */
   .nav {
     display: flex;
-    .logo {
-      margin-right: 62.5vw;
-    }
     justify-content: right;
     align-items: center;
     text-align: right;
@@ -243,6 +240,7 @@ body {
     border-radius: 12px;
     width: 100px;
     justify-content: left;
+    margin-right: 62.5vw;
 }
 
 .active {
