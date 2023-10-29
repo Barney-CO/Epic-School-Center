@@ -1,10 +1,10 @@
 {
   "name": "Epic School Center",
   "short_name": "ESC",
-  "description": "This Website App offers games to play, unblockers, and much more.",
+  "description": "This Website offers games to play, unblockers, and much more.",
   "icons": [
     {
-      "src": "/img/favicon.png",
+      "src": "/img/favicon.ico",
       "sizes": "32x32",
       "type": "image/png"
     }
