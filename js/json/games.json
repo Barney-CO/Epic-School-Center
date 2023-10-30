@@ -449,5 +449,10 @@
     "title": "Plants vs Zombies",
     "image": "https://assets-prd.ignimgs.com/2022/01/31/plants-vs-zombies-1-button-1643616180623.jpg",
     "link": "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Fplants-vs-zombies.xml"  
+  },
+  {
+    "title": "Super Mario World",
+    "image": "https://gcdn.thunderstore.io/live/repository/icons/SpookyTeam-Super_Mario_World_OST_Gramophone-1.0.0.png.256x256_q95.png",
+    "link": "/main/games/smw.html"  
   }
 ]
