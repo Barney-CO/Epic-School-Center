@@ -454,5 +454,10 @@
     "title": "Super Mario World",
     "image": "https://gcdn.thunderstore.io/live/repository/icons/SpookyTeam-Super_Mario_World_OST_Gramophone-1.0.0.png.256x256_q95.png",
     "link": "/main/games/smw.html"  
-  }
+  },
+  {
+    "title": "Madalin Stunt Cars 3",
+    "image": "https://ubg9.com/img/madalinstuntcars3/madalin-stunt-cars-3-logo.webp",
+    "link": "https://madalin-stunt-cars-3-eqg.pages.dev/"  
+  } 
 ]
