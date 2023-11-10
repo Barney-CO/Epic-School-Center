@@ -1,4 +1,4 @@
-
+onload()
 // fetches all the game tile data from the games.json file
 fetch('/js/json/games.json')
 // selects search bar

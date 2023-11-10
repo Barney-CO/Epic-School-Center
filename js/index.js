@@ -9,5 +9,6 @@ function abtab() {
     iframe.style.height = '100%';
     iframe.style.margin = '0';
     iframe.src = url;
+    window.location.replace("https://classroom.google.com/h")
     win.document.body.appendChild(iframe);
 }
