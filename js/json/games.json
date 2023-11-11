@@ -464,5 +464,10 @@
     "title": "Mr. Platformer",
     "image": "https://img.itch.zone/aW1nLzEzMzM1MDI5LnBuZw==/original/Y%2B3nXn.png",
     "link": "https://html.itch.zone/html/8686179/index.html"  
+  },
+  {
+    "title": "GBA Emulator",
+    "image": "https://extremerate.com/cdn/shop/products/ASPD4001-_4.jpg?v=1646896655&width=1946",
+    "link": "https://hhsgba.vercel.app/"  
   } 
 ]
