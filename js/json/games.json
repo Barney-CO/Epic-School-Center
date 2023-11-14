@@ -469,5 +469,10 @@
     "title": "GBA Emulator",
     "image": "https://extremerate.com/cdn/shop/products/ASPD4001-_4.jpg?v=1646896655&width=1946",
     "link": "https://hhsgba.vercel.app/"  
-  } 
+  },
+  {
+  "title": "Burrito Bison Launcha Libre",
+  "image": "https://play-lh.googleusercontent.com/vpTgm9u7-GzZP_MceTWpDi0HbinXd_4phCoTwf4ZspFL-115FtNRdo_SU1p-khLDnLA",
+  "link": "https://math-taker-esc-pi.vercel.app/newgames/burritobisonlaunchalibre"
+  }
 ]
