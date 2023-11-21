@@ -35,6 +35,11 @@
     "link": "/main/games/Retr0b0wl/"
   },
   {
+  "title": "Retro Bowl College",
+  "image": "https://play-lh.googleusercontent.com/-BT8C-1UPYWouyjVvWYgaar_-xV4IQvX4Bvib3koGEGiy6UsHlt0RgYpUrdTDfC2y0ct",
+  "link": "https://scc.epicusercontent5315.com/retrobowlcollege/index.html"
+},
+  {
     "title": "Run 3",
     "image": "/img/Run3.jpg",
     "link": "/main/games/run-3"
@@ -328,7 +333,7 @@
   {
     "title": "Happy Wheels",
     "image": "https://play-lh.googleusercontent.com/SV8RsV5udSeeONjatT5SwleP6lzV6PjtNPs2VvyohJXWSG9fFLNOfslDEHbpDN337wQ",
-    "link": "/main/games/happy-wheels"
+    "link": "https://scc.epicusercontent5315.com/happywheels/"
   },
   {
     "title": "Getaway Shootout",
@@ -418,7 +423,7 @@
   {
     "title": "OvO",
     "image": "/img/OvO.png",
-    "link": "https://mte.epicusercontent5315.com/games/html5/ovo1.4.4/index.html"
+    "link": "https://scc.epicusercontent5315.com/ovo"
   },
   {
     "title": "OvO 2",
@@ -453,7 +458,7 @@
   {
     "title": "Rocket Soccer",
     "image": "https://play-lh.googleusercontent.com/ZSLQpJsfi6GrsPoTpKh-IDkR_YcBdIG96pUi6KToYrHssFKkuV1lQQ5sLf08f5He3bE",
-    "link": "https://smash-karts-31v63l56o-barneyataldi-gmailcom.vercel.app/"  
+    "link": "https://scc.epicusercontent5315.com/rocketleague/index.html"  
   },
   {
     "title": "Tomb of the Mask",
@@ -488,7 +493,7 @@
   {
   "title": "Burrito Bison Launcha Libre",
   "image": "https://play-lh.googleusercontent.com/vpTgm9u7-GzZP_MceTWpDi0HbinXd_4phCoTwf4ZspFL-115FtNRdo_SU1p-khLDnLA",
-  "link": "/main/games/burritobison/"
+  "link": "https://selenite.cc/burritobison/"
   },
   {
     "title": "Mari0",
@@ -504,5 +509,15 @@
     "title": "Skyblock",
     "image": "https://cdn.modrinth.com/data/bbtyQ1Po/images/0fa73cf3ef2758b664ff67666b974d641aaa7779.png",
     "link": "https://mte.epicusercontent5315.com/games/html5/skyblock"
+  },
+  {
+    "title": "Adventure Capitalist",
+    "image": "https://external-preview.redd.it/NU7Ux89NnhpYqwjZo5n2WrhuYIpjERNZrbhNs0300OY.jpg?auto=webp&s=9bc3cd65b43ec0ea22f5a0ab2c3e32e5c20951bc",
+    "link": "https://scc.epicusercontent5315.com/adventure-capitalist/"
+  },
+  {
+    "title": "World's Hardest Game",
+    "image": "https://external-preview.redd.it/NU7Ux89NnhpYqwjZo5n2WrhuYIpjERNZrbhNs0300OY.jpg?auto=webp&s=9bc3cd65b43ec0ea22f5a0ab2c3e32e5c20951bc",
+    "link": "https://selenite.cc/worldshardestgame/"
   }
 ]
