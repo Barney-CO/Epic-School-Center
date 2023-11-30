@@ -82,7 +82,7 @@ fetch('/js/json/games.json')
           backButton.style.padding = '8px';
           backButton.style.borderRadius = '12px';
           backButton.style.color = 'white';
-          backButton.style.backgroundColor = '#A020F0';
+          backButton.style.backgroundColor = '#f02020';
           backButton.style.border = 'none';
           backButton.style.fontSize = '18px';
           backButton.style.zIndex = '1000';
@@ -122,7 +122,7 @@ fetch('/js/json/games.json')
           fullscreenButton.style.padding = '8px';
           fullscreenButton.style.borderRadius = '12px';
           fullscreenButton.style.color = 'white';
-          fullscreenButton.style.backgroundColor = '#A020F0';
+          fullscreenButton.style.backgroundColor = '#f02020';
           fullscreenButton.style.border = 'none';
           fullscreenButton.style.zIndex = '1000';
           fullscreenButton.style.margin = "0";
