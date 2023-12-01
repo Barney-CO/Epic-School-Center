@@ -508,12 +508,12 @@
   {
     "title": "Skyblock",
     "image": "https://cdn.modrinth.com/data/bbtyQ1Po/images/0fa73cf3ef2758b664ff67666b974d641aaa7779.png",
-    "link": "https://mte.epicusercontent5315.com/games/html5/skyblock"
+    "link": "/main/games/skyblock"
   },
   {
     "title": "Adventure Capitalist",
     "image": "https://external-preview.redd.it/NU7Ux89NnhpYqwjZo5n2WrhuYIpjERNZrbhNs0300OY.jpg?auto=webp&s=9bc3cd65b43ec0ea22f5a0ab2c3e32e5c20951bc",
-    "link": "https://scc.epicusercontent5315.com/adventure-capitalist/"
+    "link": "/main/games/ac"
   },
   {
     "title": "World's Hardest Game",
@@ -522,7 +522,22 @@
   },
   {
     "title": "BasketBros",
-    "image": "https://kevin.games/assets/images/new/basketbros-io.jpg",
-    "link": "https://escbb.epicusercontent5315.com/"
+    "image": "/img/basketbros.jpg",
+    "link": "/main/games/basketbros/index.html"
+  },
+  {
+    "title": "Drive Mad",
+    "image": "/img/DriveMad.avif",
+    "link": "/main/games/divemad"
+  },
+  {
+    "title": "Bad Piggies",
+    "image": "/img/badpiggies.jpg",
+    "link": "/main/games/badpigges"
+  },
+  {
+    "title": "Cut the Rope",
+    "image": "img/cuttherope.png",
+    "link": "/main/games/ctr"
   }
 ]
