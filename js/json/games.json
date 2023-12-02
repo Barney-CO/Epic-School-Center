@@ -227,7 +227,7 @@
   {
     "title": "Time Shooter 3",
     "image": "https://www1.minijuegosgratis.com/v3/games/thumbnails/241136_7_sq.jpg",
-    "link": "/main/games/time-shooter-3"
+    "link": "/main/games/ts3s"
   },
   {
     "title": "Rooftop Snipers",
@@ -423,7 +423,7 @@
   {
     "title": "OvO",
     "image": "/img/OvO.png",
-    "link": "https://scc.epicusercontent5315.com/ovo"
+    "link": "/main/games/ovo"
   },
   {
     "title": "OvO 2",
@@ -501,9 +501,9 @@
     "link": "https://mte.epicusercontent5315.com/games/html5/mari0"
   },
   {
-    "title": "DeathCar.io",
+    "title": "DeathCars.io",
     "image": "https://slitherio.online/upload/imgs/death-cario.jpg",
-    "link": "https://mte.epicusercontent5315.com/games/html5/deathcario"
+    "link": "/main/games/deathcarsio"
   },
   {
     "title": "Skyblock",
