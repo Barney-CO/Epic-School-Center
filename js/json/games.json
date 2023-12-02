@@ -262,12 +262,12 @@
   {
     "title": "Idle Breakout",
     "image": "https://play-lh.googleusercontent.com/e5jzYTn7Mjh9Ghn-DFpVedkOlRfSOyCS2AFgXdTrADIuuUbjx6vP6r_YOM2j5m7uLQ",
-    "link": "/main/games/idle-breakout"
+    "link": "/main/games/idlebreakout"
   },
   {
     "title": "Jetpack Joyride",
     "image": "https://play-lh.googleusercontent.com/UnBJS2kf5Dw6HyZXF9TvcRBTwIkcaT59mXX26juBUCwlqHZ8bKhZRtuRZ2q4YrT7iaE",
-    "link": "https://gametakeriscool.netlify.app/jetpackjoyride/"
+    "link": "/main/games/jetpack"
   },
   {
     "title": "Drift Hunters",
