@@ -539,5 +539,10 @@
     "title": "Cut the Rope",
     "image": "img/cuttherope.png",
     "link": "/main/games/ctr"
+  },
+  {
+    "title": "Tiny Fishing",
+    "image": "/img/tinyfishing.avif",
+    "link": "/main/games/tinyfishing"
   }
 ]
