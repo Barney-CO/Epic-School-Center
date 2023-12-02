@@ -1,22 +1,67 @@
 [
   {
-    "title": "Retro Bowl",
-    "image": "https://pbs.twimg.com/profile_images/1217942835527409665/swRMqEkK_400x400.jpg",
-    "link": "/main/games/Retr0b0wl/"
+    "title": "BasketBros",
+    "image": "/img/basketbros.jpg",
+    "link": "/main/games/basketbros/index.html"
   },
   {
-    "title": "Basketball Stars",
-    "image": "/img/Basketball-Stars.webp",
-    "link": "https://basketballstars67.pages.dev"
+    "title": "Drive Mad",
+    "image": "/img/DriveMad.avif",
+    "link": "/main/games/divemad"
   },
   {
-    "title": "1v1.lol",
-    "image": "https://play-lh.googleusercontent.com/QYGRIDJbyVO7L7jH8CwiKJ4NumTGgcTVqU3ITooLWxro-eeNns1RZ0uwGGFe-r8M4co",
-    "link": "/main/games/1v1/index.htm"
+    "title": "Bad Piggies",
+    "image": "/img/badpiggies.jpg",
+    "link": "/main/games/badpigges"
+  },
+  {
+    "title": "Cut the Rope",
+    "image": "img/cuttherope.png",
+    "link": "/main/games/ctr"
+  },
+  {
+    "title": "DeathCars.io",
+    "image": "https://slitherio.online/upload/imgs/death-cario.jpg",
+    "link": "/main/games/deathcarsio"
+  },
+  {
+    "title": "Skyblock",
+    "image": "https://cdn.modrinth.com/data/bbtyQ1Po/images/0fa73cf3ef2758b664ff67666b974d641aaa7779.png",
+    "link": "/main/games/skyblock"
+  },
+  {
+    "title": "Adventure Capitalist",
+    "image": "https://external-preview.redd.it/NU7Ux89NnhpYqwjZo5n2WrhuYIpjERNZrbhNs0300OY.jpg?auto=webp&s=9bc3cd65b43ec0ea22f5a0ab2c3e32e5c20951bc",
+    "link": "/main/games/ac"
+  },
+  {
+    "title": "OvO",
+    "image": "/img/OvO.png",
+    "link": "/main/games/ovo"
+  },
+  {
+    "title": "OvO 2",
+    "image": "https://izigames.net/uploads/2023/7/ovo-2.png",
+    "link": "/main/games/ovo2"
+  },
+  {
+    "title": "Time Shooter 3",
+    "image": "https://www1.minijuegosgratis.com/v3/games/thumbnails/241136_7_sq.jpg",
+    "link": "/main/games/ts3s"
   },
   {
     "title": "Idle Breakout",
     "image": "https://play-lh.googleusercontent.com/e5jzYTn7Mjh9Ghn-DFpVedkOlRfSOyCS2AFgXdTrADIuuUbjx6vP6r_YOM2j5m7uLQ",
-    "link": "/main/games/idle-breakout"
+    "link": "/main/games/idlebreakout"
+  },
+  {
+    "title": "Jetpack Joyride",
+    "image": "https://play-lh.googleusercontent.com/UnBJS2kf5Dw6HyZXF9TvcRBTwIkcaT59mXX26juBUCwlqHZ8bKhZRtuRZ2q4YrT7iaE",
+    "link": "/main/games/jetpack"
+  },
+  {
+    "title": "Tiny Fishing",
+    "image": "/img/tinyfishing.avif",
+    "link": "/main/games/tinyfishing"
   }
 ]
