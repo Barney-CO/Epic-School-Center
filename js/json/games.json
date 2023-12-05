@@ -539,5 +539,10 @@
     "title": "Tiny Fishing",
     "image": "/img/tinyfishing.avif",
     "link": "/main/games/tinyfishing"
+  },
+  {
+    "title": "Funny Shooter 2",
+    "image": "/img/funnyshooter2.jpeg",
+    "link": "/main/games/fs2"
   }
 ]
