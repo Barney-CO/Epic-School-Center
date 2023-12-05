@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="/css/style.css">
     <script src="/js/gsap/gsap.min.js"></script>
     <script src="https://unpkg.com/@barba/core"></script>
-    <title>Games</title>
+    <title>Apps</title>
     <style>
         iframe {
             /*
@@ -93,7 +93,7 @@ li:active {
   </head>
   <body>
     <script>
-        console.log('Whoah, you found an easter egg. Claim your special "Easter Egg Finder" role in the Discord server! Discord: https://dsc.gg/outred');
+        console.log('Whoah, you found an easter egg.');
     </script>
     <div class="nav">
       <a href="/" ><img class="logo" src="/img/logo.png" alt="logo" draggable="false"></a>
@@ -179,7 +179,7 @@ li:active {
         function showSharePopup() {
           var gameUrl = document.getElementById("game-frame").src;
           var encodedGameUrl = encodeURIComponent(gameUrl);
-          var shareUrl = "https://outred.org/g/load.html?src=" + encodedGameUrl;
+          var shareUrl = "https://outred.org/a/load.html?src=" + encodedGameUrl;
       
           // Open a new window or create a custom popup with the share URL
           var popupWidth = 500;
@@ -202,7 +202,7 @@ li:active {
     </footer>
     <script>
       if (!localStorage.getItem('currentgame')) location.pathname = '/a/load.html';
-      document.getElementById('game-frame').src = localStorage.getItem("currentgame");
+      document.getElementById('game-frame').src = localStorage.getItem("currentapp");
       document.getElementById('g-name').textContent = localStorage.getItem("currenttitle");
       document.getElementById('g-description').textContent = localStorage.getItem("currentdescription");
     </script>

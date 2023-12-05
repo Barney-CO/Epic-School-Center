@@ -8,7 +8,7 @@ async function fetchJSONData(url) {
   
   // Function to display random items
   function displayRandomItems(data) {
-    const container = document.getElementById('recommended-g');
+    const container = document.getElementById('recommended-a');
     const randomItems = getRandomItems(data, 4);
   
     randomItems.forEach(item => {
@@ -26,7 +26,7 @@ async function fetchJSONData(url) {
   }
   
   // Fetch the JSON data
-  fetchJSONData('/js/json/games.json')
+  fetchJSONData('/js/json/apps.json')
     .then(data => {
       displayRandomItems(data);
     })
