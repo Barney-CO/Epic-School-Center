@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="shortcut icon" href="img/logo.html" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/gsap/gsap.min.js"></script>
+    <script src="https://unpkg.com/@barba/core"></script>
+    <title>Games</title>
+    <style>
+        iframe {
+            /*
+            height: 45vw;
+            width: 75vw;
+            */
+            height: 650px;
+            width: 1000px;
+            border: 4px solid black;
+            border-radius: 6px;
+            background: #191919;
+            background-image: url("/img/loading-spinner.gif");   
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            left: 0;
+            position: relative;
+        }
+
+        .content {
+            width: 1000px;
+        }
+
+        ul {
+  list-style-type: none;
+  margin: 1%;
+  padding: 5px;
+}
+
+li {
+  display: inline;
+  margin: 5px;
+}
+
+li:active {
+  text-decoration: underline;
+}
+    </style>
+
+<style>
+  .share-popup {
+    position: fixed;
+    border-radius: 18px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid gray;
+    padding: 20px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  }
+
+  .encoded-url {
+    margin-bottom: 20px;
+    word-break: break-all;
+    color: black;
+  }
+
+  .copy-button {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    color: gray;
+    cursor: pointer;
+  }
+
+  .popup-text {
+    color: black;
+  }
+</style>
+  </head>
+  <body>
+    <script>
+        console.log('Whoah, you found an easter egg. Claim your special "Easter Egg Finder" role in the Discord server! Discord: https://dsc.gg/outred');
+    </script>
+    <div class="nav">
+      <a href="/" ><img class="logo" src="/img/logo.png" alt="logo" draggable="false"></a>
+      <a href="/">Home</a> <h5>/</h5>
+      <a href="/games">Games</a> <h5>/</h5>
+      <a class="active" href="/app">Apps</a>  <h5>/</h5>
+      <a href="/news">News</a>  <h5>/</h5>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSeTA-I3NI9lOYXmzMc7AI-U6VDhrbkfSu7Bolbq2UBkhfNhPA/viewform" target="_blank">Form</a> <h5>/</h5>
+      <a href="https://docs.google.com/presentation/d/1Tn9oxKNrOmVVmhPwt-qMX8aNPvs0mfNaJ_DC7vggaHA/edit#slide=id.g29d95eb413a_0_0" target="_blank">Slides</a> <h5>/</h5>
+      <a href="/chat">Chat</a>
+  </div>
+    <br><br><br>
+    <center>
+      <div class="content">
+        <div class="game-frame-div" style="margin: 0 auto;">
+          <iframe id="game-frame" scrolling="yes" frameborder="0" cellspacing="0" src="#"></iframe>
+        <div class="bar">
+          <h1 style="font-weight: normal; text-align: left;" id="g-name">Cannot fetch current game name</h1>
+          <div class="buttons">
+              <div><img class="fullscreen-svg" onclick="fullscreenFunction()" src="/img/fullscreen_.svg" draggable="false"></div>
+              <div><a href="/app"><img class="fullscreen-svg" src="/img/arrow_back_.svg" draggable="false"></a></div>
+              <div><img class="share-icon" onclick="showSharePopup()" src="/img/share_.svg" draggable="false"></div>
+          </div>
+        </div>
+    </center>
+      </div>
+    </div>
+      <br>
+    </div>
+    </div>
+    <script>
+      function showSharePopup() {
+        var gameUrl = document.getElementById("game-frame").src;
+        var encodedGameUrl = encodeURIComponent(gameUrl);
+        var url = document.location.href
+        var shareUrl = url + "?src=" + encodedGameUrl;
+    
+        var popup = document.createElement("div");
+        popup.className = "share-popup";
+
+        var text = document.createElement("div");
+        text.className = "popup-text";
+        text.textContent = "Share this link to someone so they can play it too!"
+    
+        const encodedUrl = document.createElement("div");
+        encodedUrl.className = "encoded-url";
+        encodedUrl.textContent = shareUrl;
+    
+        var copyButton = document.createElement("button");
+        copyButton.className = "copy-button";
+        copyButton.textContent = "Copy";
+        copyButton.addEventListener("click", function() {
+          copyToClipboard(shareUrl);
+          alert("Link copied to clipboard!");
+        });
+    
+        var closeButton = document.createElement("span");
+        closeButton.className = "close-button";
+        closeButton.textContent = "X";
+        closeButton.addEventListener("click", function() {
+          document.body.removeChild(popup);
+        });
+    
+        popup.appendChild(encodedUrl);
+        popup.appendChild(copyButton);
+        popup.appendChild(closeButton);
+    
+        document.body.appendChild(popup);
+      }
+    
+      function copyToClipboard(text) {
+        var textarea = document.createElement("textarea");
+        textarea.value = text;
+        textarea.style.position = "fixed"; // Prevent scrolling to bottom
+        document.body.appendChild(textarea);
+        textarea.select();
+        document.execCommand("copy");
+        document.body.removeChild(textarea);
+      }
+    </script>
+    <!-- share script 
+    <script>
+        function showSharePopup() {
+          var gameUrl = document.getElementById("game-frame").src;
+          var encodedGameUrl = encodeURIComponent(gameUrl);
+          var shareUrl = "https://outred.org/g/load.html?src=" + encodedGameUrl;
+      
+          // Open a new window or create a custom popup with the share URL
+          var popupWidth = 500;
+          var popupHeight = 300;
+          var left = (window.innerWidth - popupWidth) / 2;
+          var top = (window.innerHeight - popupHeight) / 2;
+          var popup = window.open(
+            shareUrl,
+            "Share Popup",
+            "width=" + popupWidth + ",height=" + popupHeight + ",left=" + left + ",top=" + top
+          );
+        }
+      </script>
+    -->
+    <div class="line"></div>
+    <footer>
+      </br><img src="/img/barney-co.png" alt="Barney CO LOGO"></br>
+      <h2><a href="/proof">©</a> Barney CO 2023</h2>
+      <a href="/tos"><u><h2>TOS</h2></u></a>
+    </footer>
+    <script>
+      if (!localStorage.getItem('currentgame')) location.pathname = '/g/load.html';
+      document.getElementById('game-frame').src = localStorage.getItem("currentgame");
+      document.getElementById('g-name').textContent = localStorage.getItem("currenttitle");
+      document.getElementById('g-description').textContent = localStorage.getItem("currentdescription");
+    </script>
+    <script src="/g/recog.js"></script>
+  </body>
+  </html>

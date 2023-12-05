@@ -540,3 +540,53 @@ input[type=text]:focus {
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+.gameframe {
+  border-radius: 25px;
+  border: 2px solid #ad2121;
+  padding: 20px;
+  width: 1000px;
+  height: 600px;
+}
+.gameiframe::-webkit-scrollbar {
+  display: none;
+}
+.fullscreen-svg {
+  height: auto;
+  width: 22px;
+  background-color: #f02020;
+  padding: 9px;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+
+.fullscreen-svg:hover {
+  transform: scale(1.15);
+  cursor: pointer;
+}
+
+.share-icon {
+  height: auto;
+  width: 24px;
+  background-color: #f02020;
+  padding: 8px;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.share-icon:hover {
+  transform: scale(1.15);
+  cursor: pointer;
+}
+.buttons {
+  margin-left: auto;
+  display: flex;
+  gap: 5px;
+}
+.back {
+  border: 0;
+}
+.back:hover {
+  transform: scale(1.15);
+  cursor: pointer;
+}

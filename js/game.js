@@ -1,3 +1,4 @@
+// hello, this is outred. im guessing if youre looking at this file you have programming knowledge, and this file is detailed with comments so you know what everything does. please dont skid this, it took me awhile. this script powers the game page - i.e. the search bar and each individual game tile, + the iframe for each game. please exuse any mistakes, because i am not that good at javascript and i am still learning :)
 
 // fetches all the game tile data from the games.json file
 fetch('/js/json/games.json')
@@ -16,7 +17,7 @@ fetch('/js/json/games.json')
       const filteredData = data.filter(item => item.title.toLowerCase().includes(searchQuery));
       if (filteredData.length === 0) {
         // Display message when there are no matching search results
-        gamesContainer.innerHTML = '<center><h2></h2></center>';
+        gamesContainer.innerHTML = '<center><p class="no-results-message">No results found. Join the <a class="hyperlink" href="discord.gg/PBmrGy8EPh">Discord server</a> to request a game.</p></center>';
       } else {
         // Render the grid of images for the matching search results
         renderGrid(filteredData);
@@ -32,12 +33,12 @@ fetch('/js/json/games.json')
       items.forEach(item => {
         const game = document.createElement('div');
         game.classList.add('game');
-        game.innerHTML = `<img src="${item.image}" loading="lazy"; alt="${item.title}"><h2>${item.title}</h2>`;
+        game.innerHTML = `<div onclick="localStorage.setItem('currentgame', '${item.link}'); localStorage.setItem('currenttitle', '${item.title}'); localStorage.setItem('currentdescription', 'I was to lazy to make a description'); window.location.href = '/g/load.html';"><img src="${item.image}" loading="lazy"; alt="${item.title}"><h2>${item.title}</h2></div>`;
         gamesContainer.appendChild(game);
 
-        // Add event listener to the game element to show the iframe popup
+         // Add event listener to the game element to show the iframe popup
         game.addEventListener("click", () => {
-          // Create the iframe element
+          /* Create the iframe element
           const iframe = document.createElement("iframe");
           iframe.src = item.link;
 
@@ -71,7 +72,7 @@ fetch('/js/json/games.json')
           iframe.style.filter = "none";
           iframe.style.boxShadow = "0px 0px 35px #000000";
 
-          /* makes the back arrow button to exit the iframe, also with css */
+          // makes the back arrow button to exit the iframe, also with css 
           // select the body and button with const variable
           const body = document.querySelector('body');
           const backButton = document.createElement('button');
@@ -82,7 +83,7 @@ fetch('/js/json/games.json')
           backButton.style.padding = '8px';
           backButton.style.borderRadius = '12px';
           backButton.style.color = 'white';
-          backButton.style.backgroundColor = '#f02020';
+          backButton.style.backgroundColor = '#A020F0';
           backButton.style.border = 'none';
           backButton.style.fontSize = '18px';
           backButton.style.zIndex = '1000';
@@ -122,7 +123,7 @@ fetch('/js/json/games.json')
           fullscreenButton.style.padding = '8px';
           fullscreenButton.style.borderRadius = '12px';
           fullscreenButton.style.color = 'white';
-          fullscreenButton.style.backgroundColor = '#f02020';
+          fullscreenButton.style.backgroundColor = '#A020F0';
           fullscreenButton.style.border = 'none';
           fullscreenButton.style.zIndex = '1000';
           fullscreenButton.style.margin = "0";
@@ -167,6 +168,7 @@ fetch('/js/json/games.json')
           document.body.appendChild(fullscreenButton);  
           // Add the iframe to the document
           document.body.appendChild(iframe);
+          */
         });
       });
     }
