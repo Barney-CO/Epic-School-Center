@@ -3,5 +3,10 @@
     "title": "Funny Shooter 2",
     "image": "/img/funnyshooter2.jpeg",
     "link": "/main/games/fs2"
+  },
+  {
+    "title": "Awesome Tanks 2",
+    "image": "/img/awesome-tanks-2-game-icon.png",
+    "link": "/main/games/awesometanks2"
   }
 ]
