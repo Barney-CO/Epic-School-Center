@@ -1,69 +1,128 @@
-<!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Madalin Stunt Cars 2 - Unblcoked Games 76</title>
-	<meta name="description" content="" />
-    <link rel="shortcut icon" href="https://rawcdn.githack.com/unblocked76/madalin-stunt-cars-2/blob/main/TemplateData/favicon.ico">
-    <link rel="stylesheet" href="https://rawcdn.githack.com/unblocked76/madalin-stunt-cars-2/blob/main/TemplateData/style.css">
-	<script type="text/javascript" src="https://ubg76.github.io/cloak.js"></script>
-  </head>
-  <body>
-    <div id="unity-container" class="unity-desktop" style="width: 100%; height: 100%; overflow: hidden">
-      <canvas id="unity-canvas" style="width: 100%; height: 100%; overflow: hidden"></canvas>
-      <div id="unity-loading-bar">
-        <div id="unity-logo"></div>
-        <div id="unity-progress-bar-empty">
-          <div id="unity-progress-bar-full"></div>
-        </div>
-      </div>
-      <div id="unity-mobile-warning">
-        WebGL builds are not supported on mobile devices.
-      </div>
-    </div>
-    <script>
-      var buildUrl = "Build";
-      var loaderUrl = buildUrl + "https://rawcdn.githack.com/unblocked76/madalin-stunt-cars-2/blob/main/a5013994377aa0aac510762ebd51490c.js";
-      var config = {
-        dataUrl: buildUrl + "https://rawcdn.githack.com/unblocked76/madalin-stunt-cars-2/blob/main/2881e08eb5ef6d1313a056a853f1e70e.data",
-        frameworkUrl: buildUrl + "https://rawcdn.githack.com/unblocked76/madalin-stunt-cars-2/blob/main/dab36e07008a1d11fa2089882edbec3c.js",
-        codeUrl: buildUrl + "https://rawcdn.githack.com/unblocked76/madalin-stunt-cars-2/blob/main/280b9fbb57351bcf404d56998a2c7cd6.wasm",
-        streamingAssetsUrl: "https://rawcdn.githack.com/unblocked76/madalin-stunt-cars-2/blob/main/StreamingAssets",
-        companyName: "Madalin Games",
-        productName: "Madalin Stunt Cars 2",
-        productVersion: "3.1.0",
-      };
- 
-      var container = document.querySelector("#unity-container");
-      var canvas = document.querySelector("#unity-canvas");
-      var loadingBar = document.querySelector("#unity-loading-bar");
-      var progressBarFull = document.querySelector("#unity-progress-bar-full");
-      var mobileWarning = document.querySelector("#unity-mobile-warning");
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
+  <script>
+    let CryptoJS = require("crypto-js");
+console.log(CryptoJS.HmacSHA1("Message", "Key"));
 
-      if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
-        container.className = "unity-mobile";
-        config.devicePixelRatio = 1;
-        mobileWarning.style.display = "block";
-        setTimeout(() => {
-          mobileWarning.style.display = "none";
-        }, 5000);
-      }
-      canvas.style.background = "url('" + buildUrl + "https://rawcdn.githack.com/unblocked76/madalin-stunt-cars-2/blob/main/821652a7ba86ba5731dc5409d399d903.jpg') center / cover";
-      loadingBar.style.display = "block";
+function abtab() {
+    var url = document.location.href
+    var win = window.open();
+    win.document.body.style.margin = '0';
+    win.document.body.style.height = '100vh';
+    var iframe = win.document.createElement('iframe');
+    iframe.style.border = 'none';
+    iframe.style.width = '100%';
+    iframe.style.height = '100%';
+    iframe.style.margin = '0';
+    iframe.src = url;
+    window.location.replace("https://classroom.google.com/h")
+    win.document.body.appendChild(iframe);
+}
+// Hide the spinner element after the page is loaded
+document.querySelector('.spinner').style.display = 'none';
 
-      var script = document.createElement("script");
-      script.src = loaderUrl;
-      script.onload = () => {
-        createUnityInstance(canvas, config, (progress) => {
-          progressBarFull.style.width = 100 * progress + "%";
-        }).then((unityInstance) => {
-          loadingBar.style.display = "none";
-        }).catch((message) => {
-          alert(message);
-        });
-      };
-      document.body.appendChild(script);
-    </script>
-  </body>
-</html>
+// Function to get the main save data
+function getMainSave() {
+  var mainSave = {};
+
+  // List of items in localStorage that should not be saved
+  var localStorageDontSave = ['theme', 'tab', 'nebelung'];
+
+  // Convert localStorage to an array of key-value pairs and remove the items that should not be saved
+  localStorageSave = Object.entries(localStorage);
+
+  for (let entry in localStorageSave) {
+    if (localStorageDontSave.includes(localStorageSave[entry][0])) {
+      localStorageSave.splice(entry, 1);
+    }
+  }
+
+  // Convert the localStorage array to a base64-encoded JSON string
+  localStorageSave = btoa(JSON.stringify(localStorageSave));
+
+  // Add the localStorage data to the mainSave object
+  mainSave.localStorage = localStorageSave;
+
+  // Get the cookies data and add it to the mainSave object
+  cookiesSave = document.cookie;
+  cookiesSave = btoa(cookiesSave);
+  mainSave.cookies = cookiesSave;
+
+  // Convert the mainSave object to a base64-encoded JSON string
+  mainSave = btoa(JSON.stringify(mainSave));
+
+  // Encrypt the mainSave data using AES encryption with the key 'save'
+  mainSave = CryptoJS.AES.encrypt(mainSave, 'save').toString();
+
+  // Return the encrypted mainSave data
+  return mainSave;
+}
+
+// Function to download the main save data as a file
+function downloadMainSave() {
+  var data = new Blob([getMainSave()]);
+  var dataURL = URL.createObjectURL(data);
+  var fakeElement = document.createElement('a');
+  fakeElement.href = dataURL;
+  fakeElement.download = 'games.save';
+  fakeElement.click();
+  URL.revokeObjectURL(dataURL);
+}
+
+// Function to get the main save data from an uploaded file
+function getMainSaveFromUpload(data) {
+  // Decrypt the uploaded data using AES decryption with the key 'save'
+  data = CryptoJS.AES.decrypt(data, 'save').toString(CryptoJS.enc.Utf8);
+
+  // Parse the decrypted data as JSON
+  var mainSave = JSON.parse(atob(data));
+  var mainLocalStorageSave = JSON.parse(atob(mainSave.localStorage));
+  var cookiesSave = atob(mainSave.cookies);
+
+  // Set the items in localStorage using the uploaded data
+  for (let item of mainLocalStorageSave) {
+    localStorage.setItem(item[0], item[1]);
+  }
+
+  // Set the cookies using the uploaded data
+  document.cookie = cookiesSave;
+}
+
+// Function to handle the file upload
+function uploadMainSave() {
+  var hiddenUpload = document.querySelector('.hiddenUpload');
+  hiddenUpload.click();
+
+  // Listen for the change event on the file input element
+  hiddenUpload.addEventListener('change', function (e) {
+    var files = e.target.files;
+    var file = files[0];
+    if (!file) {
+      return;
+    }
+
+    // Read the contents of the uploaded file as text and call getMainSaveFromUpload with the result
+    var reader = new FileReader();
+
+    reader.onload = function (e) {
+      getMainSaveFromUpload(e.target.result);
+
+      // Show a success message to the user
+      var uploadResult = document.querySelector('.uploadResult');
+      uploadResult.innerText = 'Uploaded save!';
+      uploadResult.style.display = 'initial';
+      setTimeout(function () {
+        uploadResult.style.display = 'none';
+      }, 3000);
+    };
+
+    reader.readAsText(file);
+  });
+}
+  </script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<div class="saveItems">
+  <button onclick="downloadMainSave()" class="rainbow">Download Save</button> <button onclick="uploadMainSave()" class="rainbow">Upload Save</button> <div class="uploadResult"></div>
+</div>
+<input class="hiddenUpload" type="file" accept=".save"/>

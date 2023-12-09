@@ -1,12 +1,17 @@
 [
   {
-    "title": "Funny Shooter 2",
-    "image": "/img/funnyshooter2.jpeg",
-    "link": "/main/games/fs2"
+    "title": "Scratcharia",
+    "image": "/img/Scratcharia.jpg",
+    "link": "/main/games/Scratcharia.html"
   },
   {
-    "title": "Awesome Tanks 2",
-    "image": "/img/awesome-tanks-2-game-icon.png",
-    "link": "/main/games/awesometanks2"
+    "title": "Google Snake",
+    "image": "/img/snake.png",
+    "link": "/main/games/google-snake"
+  },
+  {
+    "title": "Dino Game",
+    "image": "/img/DinoGame.jpg",
+    "link": "/main/games/chrome-dino"
   }
 ]

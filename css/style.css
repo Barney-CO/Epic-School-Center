@@ -590,3 +590,6 @@ input[type=text]:focus {
   transform: scale(1.15);
   cursor: pointer;
 }
+.hiddenUpload {
+  display: none;
+}
