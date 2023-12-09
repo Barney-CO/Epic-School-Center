@@ -33,11 +33,11 @@ body {
 /* For games page! Do not delete! */
 .games {
   display: grid;
-  grid-template-columns: repeat(auto-fill, 159px) !important;
-  justify-content: space-between;
-  grid-gap: 60px;
-  max-width: 1000px;
-  margin: 0px auto;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  grid-gap: 20px;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 1380px;
 }
 
 /* 
