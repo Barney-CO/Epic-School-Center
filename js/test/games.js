@@ -1,17 +1,3 @@
-function abtab() {
-    var url = document.location.href
-    var win = window.open();
-    win.document.body.style.margin = '0';
-    win.document.body.style.height = '100vh';
-    var iframe = win.document.createElement('iframe');
-    iframe.style.border = 'none';
-    iframe.style.width = '100%';
-    iframe.style.height = '100%';
-    iframe.style.margin = '0';
-    iframe.src = url;
-    window.location.replace("https://classroom.google.com/h")
-    win.document.body.appendChild(iframe);
-}
 /*
 Hello epic hacker (maybe skid) you are looking at one of the many scripts that powers the site,
 this script has extra comments and info to help you understand what is going on.
@@ -67,7 +53,7 @@ fetch('./assets/json/games.json')
     games.forEach((game) => {
       const gameEl = document.createElement('div');
       gameEl.className = 'game';
-      gameEl.innerHTML = `<img src="${cdn + "/" + game.root + "/" + game.img}" onerror="this.src='./assets/globe.svg' <span>${game.name}</span>`;
+      gameEl.innerHTML = `<img src="${cdn + "/" + game.root + "/" + game.img}" onerror="this.src='./assets/globe.svg'"/><span>${game.name}</span>`;
       gamesContainer.appendChild(gameEl);
 
       // Add click event listener to the game element to show the game in the game container
