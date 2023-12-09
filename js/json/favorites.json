@@ -13,5 +13,20 @@
     "title": "Dino Game",
     "image": "/img/DinoGame.jpg",
     "link": "/main/games/chrome-dino"
+  },
+  {
+    "title": "Learn to Fly",
+    "image": "/main/games/learntofly/icon.png",
+    "link": "/main/games/learntofly"
+  },
+  {
+    "title": "Learn to Fly 2",
+    "image": "/main/games/learntofly2/logo.jpg",
+    "link": "/main/games/learntofly2"
+  },
+  {
+    "title": "Learn to Fly 3",
+    "image": "/main/games/learntofly3/logo.png",
+    "link": "/main/games/learntofly3"
   }
 ]
