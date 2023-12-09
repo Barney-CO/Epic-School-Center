@@ -28,5 +28,10 @@
     "title": "Learn to Fly 3",
     "image": "/main/games/learntofly3/logo.png",
     "link": "/main/games/learntofly3"
+  },
+  {
+    "title": "Cars Simulator",
+    "image": "/main/games/cars-simulator/splash.png",
+    "link": "/main/games/cars-simulator/"
   }
 ]
