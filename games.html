@@ -37,6 +37,14 @@
   <div class="line"></div>
   <br><br>
   <br><br>
+  <input class="hiddenUpload" type="file" accept=".save" hidden="true">
+  <div class="saveItems">
+    <button class="rainbow" onclick="downloadMainSave()">Download Save</button>
+    <button class="rainbow" onclick="uploadMainSave()">Upload Save</button>
+    <div class="uploadResult"></div>
+  </div>
+  <br><br>
+  <br><br>
 <!-- Image grid -->
 <div class="search">
   <input type="text" class="search-input" placeholder="Search for games...">
@@ -49,6 +57,8 @@
     <h1>Thats the end</h1>
     <br>
     </span>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
+    <script src="/js/index.js"></script>
     <script src="/js/game.js"></script>
     <script src="/js/navsearch.js"></script>
     <br>
