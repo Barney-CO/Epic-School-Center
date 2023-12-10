@@ -574,5 +574,10 @@
     "title": "Cars Simulator",
     "image": "/main/games/cars-simulator/splash.png",
     "link": "/main/games/cars-simulator/"
+  },
+  {
+    "title": "Cell Machine",
+    "image": "/img/cellmachine.png",
+    "link": "/main/games/cell-machine/"
   }
 ]

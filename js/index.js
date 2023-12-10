@@ -151,7 +151,7 @@ function downloadMainSave() {
 
   var fakeElement = document.createElement('a');
   fakeElement.href = dataURL;
-  fakeElement.download = 'games.save';
+  fakeElement.download = 'your.esc.save';
   fakeElement.click();
   URL.revokeObjectURL(dataURL);
 }
