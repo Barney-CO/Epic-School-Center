@@ -1,37 +1,12 @@
 [
   {
-    "title": "Scratcharia",
-    "image": "/img/Scratcharia.jpg",
-    "link": "/main/games/Scratcharia.html"
+    "title": "BMX Park",
+    "image": "/img/bmx-park.jpg",
+    "link": "/main/games/bmx-park.html"
   },
   {
-    "title": "Google Snake",
-    "image": "/img/snake.png",
-    "link": "/main/games/google-snake"
-  },
-  {
-    "title": "Dino Game",
-    "image": "/img/DinoGame.jpg",
-    "link": "/main/games/chrome-dino"
-  },
-  {
-    "title": "Learn to Fly",
-    "image": "/main/games/learntofly/icon.png",
-    "link": "/main/games/learntofly"
-  },
-  {
-    "title": "Learn to Fly 2",
-    "image": "/main/games/learntofly2/logo.jpg",
-    "link": "/main/games/learntofly2"
-  },
-  {
-    "title": "Learn to Fly 3",
-    "image": "/main/games/learntofly3/logo.png",
-    "link": "/main/games/learntofly3"
-  },
-  {
-    "title": "Cell Machine",
-    "image": "/img/cellmachine.png",
-    "link": "/main/games/cell-machine/"
+    "title": "XX142-B2.exe",
+    "image": "/main/games/xx142-b2.exe/icon.png",
+    "link": "/main/games/xx142-b2.exe"
   }
 ]

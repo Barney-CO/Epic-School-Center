@@ -574,5 +574,15 @@
     "title": "Cell Machine",
     "image": "/img/cellmachine.png",
     "link": "/main/games/cell-machine/"
+  },
+  {
+    "title": "BMX Park",
+    "image": "/img/bmx-park.jpg",
+    "link": "/main/games/bmx-park.html"
+  },
+  {
+    "title": "XX142-B2.exe",
+    "image": "/main/games/xx142-b2.exe/icon.png",
+    "link": "/main/games/xx142-b2.exe"
   }
 ]
