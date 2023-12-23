@@ -13,3 +13,4 @@
 </footer>
 
 <h2>LAZERBEAM DIDN'T SAY "I love Epic School Center it took me from my wife."</h2>
+<h2>Thanks to Sky who made Selenite.cc who made a lot of the scripts we use and a lot of the game we use. Sky has been a massive help. </h2>
