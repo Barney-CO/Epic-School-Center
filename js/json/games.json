@@ -584,5 +584,10 @@
     "title": "XX142-B2.exe",
     "image": "/main/games/xx142-b2.exe/icon.png",
     "link": "/main/games/xx142-b2.exe"
+  },
+  {
+    "title": "Slice of Sasha",
+    "image": "/img/sliceofsasha.jpg",
+    "link": "/main/games/sliceofsasha"
   }
 ]
