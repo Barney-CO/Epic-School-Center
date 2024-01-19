@@ -97,32 +97,32 @@
   {
     "title": "Moto X3M",
     "image": "https://img.gamedistribution.com/5b0abd4c0faa4f5eb190a9a16d5a1b4c-512x512.jpeg", 
-    "link": "https://mte.epicusercontent5315.com/games/html5/motox3m"
+    "link": "/main/games/motox3m"
   },
   {
     "title": "Moto X3M 2",
     "image": "https://nointernetgame.com/wp-content/uploads/2022/11/Moto-X3M-2-e1680715827764.jpg",
-    "link": "https://mte.epicusercontent5315.com/games/html5/motox3m2"
+    "link": "/main/games/motox3m2"
   },
   {
     "title": "Moto X3M 3",
     "image": "https://herkuli.net/wp-content/uploads/2021/03/motox3m-3.png",
-    "link": "https://mte.epicusercontent5315.com/games/html5/motox3m3/"
+    "link": "/main/games/motox3m3/"
   },
   {
     "title": "Moto X3M 4 Winter",
     "image": "https://basketball-stars.co/data/image/moto-x3m-4-winter-1.jpeg",
-    "link": "https://mte.epicusercontent5315.com/games/html5/motox3m4winter/"
+    "link": "/main/games/motox3m4winter/"
   },
   {
     "title": "Moto X3M 5 Pool Party",
     "image": "https://slopegame.io/upload/imgs/moto-x3m-pool-party-logo.jpeg",
-    "link": "https://mte.epicusercontent5315.com/games/html5/motox3m5poolparty"
+    "link": "/main/games/motox3m5poolparty"
   },
   {
     "title": "Moto X3M 6 Spooky Land",
     "image": "https://basketballlegends.fun/upload/imgs/moto-x3m-spooky-land.jpg",
-    "link": "https://mte.epicusercontent5315.com/games/html5/motox3m6spooky-land"
+    "link": "/main/games/motox3m6spooky-land"
   },
   {
     "title": "Bitlife",
@@ -589,5 +589,10 @@
     "title": "Slice of Sasha",
     "image": "/img/sliceofsasha.jpg",
     "link": "/main/games/sliceofsasha"
+  },
+  {
+    "title": "Stickman Hook",
+    "image": "/img/stickmanhook.jpg",
+    "link": "/main/games/stickmanhook"
   }
 ]
