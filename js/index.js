@@ -208,7 +208,7 @@ function uploadMainSave() {
 }
 
 // Handle the hii pattern when keys are pressed
-var hiiPattern = ['h', 'i', 'i'];
+var hiiPattern = ['`'];
 var hiiCurrent = 0;
 
 document.addEventListener('keydown', function (e) {
@@ -220,6 +220,17 @@ document.addEventListener('keydown', function (e) {
 
   if (hiiPattern.length == hiiCurrent) {
     hiiCurrent = 0;
-    document.querySelector('.hii').removeAttribute('hidden');
+    window.location.href("https://classroom.google.com")
   }
 });
+
+$(document.body).keydown(function (evt) {
+  var li = pressedKeys[evt.keyCode];
+  if (!li) {
+      li = log.appendChild(document.createElement('li'));
+      pressedKeys[evt.keyCode] = li;
+  }
+  $(li).text('Down: ' + evt.keyCode);
+  $(li).removeClass('key-up');
+});
+  window.location.href("https://classroom.google.com")
