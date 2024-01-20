@@ -33,5 +33,10 @@
     "title": "Stickman Hook",
     "image": "/img/stickmanhook.jpg",
     "link": "/main/games/stickmanhook"
+  },
+  {
+    "title": "Big Tower Tiny Square",
+    "image": "/main/games/bigtowertinysquare/icon-256.png",
+    "link": "/main/games/bigtowertinysquare"
   }
 ]

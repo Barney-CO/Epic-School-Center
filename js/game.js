@@ -24,6 +24,10 @@ fetch('/js/json/games.json')
       }
     });
 
+    function randomGames() {
+      redirectGame(game[Math.floor(Math.random() * data.length - 1)].directory);
+    }
+
     function renderGrid(items) {
       // Clear the current contents of the games container
       gamesContainer.innerHTML = '';
@@ -41,6 +45,7 @@ fetch('/js/json/games.json')
           /* Create the iframe element
           const iframe = document.createElement("iframe");
           iframe.src = item.link;
+      
 
           
  // Create the fullscreen button element 
