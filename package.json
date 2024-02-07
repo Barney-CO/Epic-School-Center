@@ -1,6 +1,9 @@
 {
-    "name": "Epic-School-Center",
+    "name": "epic-school-center",
     "description": "",
     "version": "1.0.0",
-    "author": "Barney CO"
-  }
+    "author": "Barney CO",
+    "dependencies": {
+        "express": "^4.18.2"
+    }
+}
