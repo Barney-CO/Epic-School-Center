@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"**/*.uasset": true,
+			"**/*.umap": true,
+			"**/*.png": true,
+			"**/*.jpg": true,
+			"**/*.tga": true,
+			"_INT": true,
+			"**/*.vproject": true,
+			"__ExternalActors__": true,
+			"__ExternalObjects__": true
+		},
+		"files.autoSave": "onWindowChange",
+		"editor.bracketPairColorization.enabled": false,
+		"editor.acceptSuggestionOnEnter": "off"
+	}
+}

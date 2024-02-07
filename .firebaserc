@@ -1,7 +1,7 @@
 {
   "projects": {
-    "EpicSchoolCenter": "epikskh00lk3nt3r",
-    "default": "epikskh00lk3nt3r"
+    "EpicSchoolCenter": "epic-school-center",
+    "default": "epic-school-center"
   },
   "targets": {},
   "etags": {}
