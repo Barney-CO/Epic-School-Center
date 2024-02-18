@@ -18,6 +18,7 @@
 		},
 		"files.autoSave": "onWindowChange",
 		"editor.bracketPairColorization.enabled": false,
-		"editor.acceptSuggestionOnEnter": "off"
+		"editor.acceptSuggestionOnEnter": "off",
+		"liveServer.settings.multiRootWorkspaceName": "Extenstion"
 	}
 }

@@ -599,5 +599,10 @@
     "title": "Big Tower Tiny Square",
     "image": "/main/games/bigtowertinysquare/icon-256.png",
     "link": "/main/games/bigtowertinysquare"
+  },
+  {
+    "title": "The Oregon Trail",
+    "image": "/img/oregon-trail-icon-25-3451526595.jpg",
+    "link": "https://oregontrail.ws/games/the-oregon-trail/play/"
   }
 ]
