@@ -1,9 +1,20 @@
 {
-    "name": "epic-school-center",
-    "description": "",
-    "version": "1.0.0",
-    "author": "Barney CO",
-    "dependencies": {
-        "express": "^4.18.2"
-    }
+  "scripts": {
+    "edgio:dev": "edgio dev",
+    "edgio:build": "edgio build",
+    "edgio:deploy": "edgio deploy"
+  },
+  "name": "epic-school-center",
+  "description": "",
+  "version": "1.0.0",
+  "author": "Barney CO",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@edgio/cli": "^7.9.0",
+    "@edgio/core": "^7.9.0",
+    "@edgio/next": "^7.9.0",
+    "@edgio/prefetch": "^7.9.0"
+  }
 }

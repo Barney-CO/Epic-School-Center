@@ -4,3 +4,5 @@ img/drawing.svg
 img/wave.svg
 node_modules
 firebase-debug.log
+# Edgio generated build directory
+.edgio
