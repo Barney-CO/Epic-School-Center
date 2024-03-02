@@ -624,5 +624,15 @@
     "title": "Madalin Stunt Cars 3",
     "image": "/img/madalin-stunt-cars-3.jpg",
     "link": "/main/games/madalin-stunt-cars-3"
+  },
+  {
+    "title": "Infinite Craft",
+    "image": "/img/infinite-craft.png",
+    "link": "https://neal.fun/infinite-craft/"
+  },
+  {
+    "title": "UNO",
+    "image": "/img/uno.png",
+    "link": "https://nailek.net/games/uno/client/"
   }
 ]
