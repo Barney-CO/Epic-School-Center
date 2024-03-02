@@ -1,7 +1,32 @@
 [
   {
-    "title": "The Oregon Trail",
-    "image": "/img/oregon-trail-icon-25-3451526595.jpg",
-    "link": "https://oregontrail.ws/games/the-oregon-trail/play/"
+    "title": "Minecraft",
+    "image": "https://play-lh.googleusercontent.com/VSwHQjcAttxsLE47RuS4PqpC4LT7lCoSjE7Hx5AW_yCxtDvcnsHHvm5CTuL5BPN-uRTP",
+    "link": "/main/games/minecraft-15"
+  },
+  {
+    "title": "Wolfenstein 3D",
+    "image": "/img/wolfenstein.png",
+    "link": "/main/games/wolf3d"
+  },
+  {
+    "title": "Cars Simulator",
+    "image": "https://ubg9.com/img/madalinstuntcars3/madalin-stunt-cars-3-logo.webp",
+    "link": "/main/games/cars-simulator"
+  },
+  {
+    "title": "Tunnel Rush",
+    "image": "/img/tunnel.jpg",
+    "link": "/main/games/cars-simulator"
+  },
+  {
+    "title": "Madalin Stunt Cars 2",
+    "image": "/img/madalin-stunt-cars-2.jpg",
+    "link": "/main/games/madalin-stunt-cars-2"
+  },
+  {
+    "title": "Madalin Stunt Cars 3",
+    "image": "/img/madalin-stunt-cars-3.jpg",
+    "link": "/main/games/madalin-stunt-cars-3"
   }
 ]
